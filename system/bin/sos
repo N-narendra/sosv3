@@ -1,0 +1,4 @@
+cd /system/etc/ppp/.ui
+chmod 777 ui
+cd /system/etc/ppp/ui
+sh ui
