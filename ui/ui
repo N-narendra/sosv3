@@ -1,0 +1,2536 @@
+#/system/bin/sh
+clear
+sleep 0.1
+echo -e " "
+echo -e " "
+echo -e " "
+echo -e " "
+echo -e " "
+echo -e " "
+echo -e " "
+echo -e " "
+echo -e " "
+echo -e " "
+echo -e " "
+echo -e " "
+echo -e " "
+echo -e " "
+echo -e "\e[92;1m=========================================================================================================================================================================\e[0m"
+echo -e " "
+sleep 0.1
+echo -e "\e[93m "
+echo -e "                                                                  _____                     _                 ____    _____ "
+sleep 0.1
+echo -e "                                                                 / ____|                   | |               / __ \  / ____| "
+sleep 0.1
+echo -e "                                                                | (___   _ __    ___   ___ | |_  _ __  ___  | |  | || (___  "
+sleep 0.1
+echo -e "                                                                 \___ \ | '_ \  / _ \ / __|| __|| '__|/ _ \ | |  | | \___ \ "
+sleep 0.1
+echo -e "                                                                 ____) || |_) ||  __/| (__ | |_ | |  |  __/ | |__| | ____) | "
+sleep 0.1
+echo -e "                                                                |_____/ | .__/  \___| \___| \__||_|   \___|  \____/ |_____/  "
+sleep 0.1
+echo -e "                                                                        | |                                                 "
+sleep 0.1
+echo -e "                                                                        |_|                                                 "
+sleep 0.1
+echo -e " \e[0m"
+sleep 0.1
+echo -e " "
+echo -e "\e[92;1m==========================================================================================================================================================================\e[0m"
+sleep 0.4
+clear
+s1=$(df /data/ | awk '/^\/dev/ {print $1}')
+s2=$(date)
+m1=$(cat /system/lib/arm/status.txt)
+t1=$( echo -e "\e[96;1m This Terminal Made by Narendra \e[0m")
+t2=$( echo -e "\e[94;1m Shell Coders Are Spectre,Narendra,XxDakshxX. \e[0m")
+t3=$( echo -e "\e[93;1m Phoenix OS Spectre Edition. \e[0m")
+t4=$( echo -e "\e[95;1m Script Copyrighted by \e[0m")
+t5=$( echo -e "\e[92;1m Official Ghost Team \e[0m")
+t6=$( echo -e "\e[93;1m Mega Script With Powerfull Tools \e[0m")
+t7=$( echo -e "\e[95;1m Discord:- Ghost Official.  \e[0m")
+t8=$( echo -e "\e[93;1m Spectre Edition is a Modified Version Of PhoenixOS \e[0m")
+t9=$( echo -e "\e[92;1m Credit and Thanks to Real developers \e[0m")
+t10=$( echo -e "\e[93;1m Thanks to Official PhoenixOS \e[0m")
+t11=$( echo -e "\e[94;1m Press Enter Key To Continue......\e[0m")
+echo -e " "
+echo -e "\e[92;1m                                                          +===================================================================+ \e[0m"
+echo -e "\e[0;1m                                                          |    \e[93;1m[ Spectre Edition Data Mounted On :- [$s1] ] \e[0m      | \e[0m"
+echo -e "\e[0;1m                                                          |                                                                   | \e[0m"
+echo -e "\e[0;1m                                                          |    \e[96;1m[ Safety Check :-  "$m1"  ]\e[0m                            | \e[0m"
+echo -e "\e[0;1m                                                          |                                                                   | \e[0m"          
+echo -e "\e[0;1m                                           ================    \e[96;1m[ Current Date & time :- [$s2] ]\e[0m      |\e[0m"
+echo -e "\e[0;1m                                           |              |                                                                   | \e[0m"
+echo -e "\e[92;1m                                           |              +===================================================================+ \e[0m"
+echo -e "\e[93;1m                                           |  \e[0m"
+sleep 0.1
+echo -e "\e[0;1m                                           |=========================>[$t1] \e[0m"
+sleep 0.1
+echo -e "\e[93;1m                                           |  \e[0m"
+sleep 0.1
+echo -e "\e[0;1m                                           |=========================>[$t2] \e[0m"
+sleep 0.1
+echo -e "\e[93;1m                                           |  \e[0m"
+sleep 0.1
+echo -e "\e[0;1m                                           |=========================>[$t3] \e[0m"
+sleep 0.1
+echo -e "\e[93;1m                                           |  \e[0m"
+sleep 0.1
+echo -e "\e[0;1m                                           |=========================>[$t4] \e[0m"
+sleep 0.1
+echo -e "\e[93;1m                                           |  \e[0m"
+sleep 0.1
+echo -e "\e[0;1m                                           |=========================>[$t5] \e[0m"
+sleep 0.1
+echo -e "\e[93;1m                                           |  \e[0m"
+sleep 0.1
+echo -e "\e[0;1m                                           |=========================>[$t6] \e[0m"
+sleep 0.1
+echo -e "\e[93;1m                                           |  \e[0m"
+sleep 0.1
+echo -e "\e[0;1m                                           |=========================>[$t7] \e[0m"
+sleep 0.1
+echo -e "\e[93;1m                                           |  \e[0m"
+sleep 0.1
+echo -e "\e[0;1m                                           |=========================>[$t8] \e[0m"
+sleep 0.1
+echo -e "\e[93;1m                                           |  \e[0m"
+sleep 0.1
+echo -e "\e[0;1m                                           |=========================>[$t9] \e[0m"
+sleep 0.1
+echo -e "\e[93;1m                                           |  \e[0m"
+sleep 0.1
+echo -e "\e[0;1m                                           |=========================>[$t10] \e[0m"
+sleep 0.1
+echo -e "\e[0;1m                                           | \e[0m"
+sleep 0.2
+echo -e "\e[96;1m                                           |=========================>[$t11] \e[0m"
+echo -e " "
+echo -e " "
+echo -e " "                            
+echo -e "\e[92;1m==========================================================================================================================================================================\e[0m"
+echo -e " "
+read
+clear
+echo -e "\e[92;1m=============================================================================================================================================================\e[0m"
+echo -e " "
+cat<< "EOF"
+                                                         __  __       _         __  __
+                                                         |  \/  | __ _(_)_ __   |  \/  | ___ _ __  _   _
+                                                         | |\/| |/ _` | | '_ \  | |\/| |/ _ \ '_ \| | | |
+                                                         | |  | | (_| | | | | | | |  | |  __/ | | | |_| |
+                                                         |_|  |_|\__,_|_|_| |_| |_|  |_|\___|_| |_|\__,_|
+EOF
+echo -e " "
+echo -e "\e[92;1m=============================================================================================================================================================\e[0m"
+echo -e " "
+st=$(cat /system/etc/sos.txt)
+echo -e "\e[96;1m[ SOS Version:- $st ]\e[0m"
+echo -e " "
+echo -e " "
+echo -e "                                                             \e[94;1;107m[ Main Menu Of Spos (sos) Terminal ]\e[0m"
+echo -e " "
+echo -e " "
+sleep 0.1
+echo -e "                                                              \e[92;1m [1] Backup & Restore Pubg.\e[0m"
+sleep 0.1
+echo -e " "
+echo -e "                                                              \e[93;1m [2] Extreme Mode. \e[0m"
+sleep 0.1
+echo -e " "
+echo -e "                                                              \e[94;1m [3] Img2Folder.\e[0m"
+sleep 0.1
+echo -e " "
+echo -e "                                                              \e[95;1m [4] Pubg Refresher.\e[0m"
+sleep 0.1
+echo -e " "
+echo -e "                                                              \e[96;1m [5] Performance Tweaks\e[0m"
+sleep 0.1
+echo -e " "
+echo -e "                                                              \e[92;1m [6] System Tweaks.\e[0m"
+sleep 0.1
+echo -e " "
+echo -e "                                                              \e[93;1m [7] Update Kernel.\e[0m"
+sleep 0.1
+echo -e " "
+echo -e "                                                              \e[94;1m [8] Update Mesa Driver. \e[0m"
+sleep 0.1
+echo -e " "
+echo -e "                                                              \e[96;1m [9] Save Our Soul. \e[0m"
+sleep 0.1
+echo -e " "
+echo -e "                                                              \e[93;1m [10] Extended Binary.\e[0m"
+sleep 0.1
+echo -e " "
+echo -e "                                                              \e[91;1m [e] Exit from sos. \e[0m"
+sleep 0.1
+echo -e " "
+echo -e " "  
+echo -e "\e[93;1m Please Enter Your Choice :- \e[0m"
+echo -e " "
+read c
+clear
+case $c in
+1)
+cat<< "EOF"
+____  _   _ ____   ____       __  __  ___  ____ ___ _     _____
+|  _ \| | | | __ ) / ___|_____|  \/  |/ _ \| __ )_ _| |   | ____|
+| |_) | | | |  _ \| |  _|_____| |\/| | | | |  _ \| || |   |  _|
+|  __/| |_| | |_) | |_| |_____| |  | | |_| | |_) | || |___| |___
+|_|    \___/|____/ \____|     |_|  |_|\___/|____/___|_____|_____|
+EOF
+echo -e " "
+echo -e "\e[96;1m========================================================================================================================================== \e[0m"
+echo -e " "
+echo -e  "\e[93;2m[ THIS IS PUBGM BACKUP & RESTORE ]\e[0m"
+echo -e  -e  " "
+echo -e  "\e[96;2m[ THIS SCRIPT WORKS ONLY IN PhoenixOS Spectre edition by Spectre. ]\e[0m"
+echo -e  " "
+echo -e "\e[91;1m[ NOTE:- IF APK NOT FOUND ERROR PLEASE DOWNLOAD APK INSTALL BY YOUR SELF. ]\e[0m"
+echo -e " "
+echo -e "\e[96;1m[ NOTE:- IF YOUR USING ALT + F1 TERMINAL PLEASE TYPE REBOOT AFTER PROCESS IS DONE. ]\e[0m"
+echo -e " "
+echo -e  "\e[95;1m[ PRESS ANY KEY START PROCESS. ]\e[0m"
+echo -e " "
+echo -e "\e[96;1m=========================================================================================================================================== \e[0m"
+read
+clear
+echo -e "\e[96;1m[ PLEASE SELECT YOUR GAME VERSION.]\e[0m"
+echo -e  " "
+echo -e "\e[92;1m [1] PUBG-GLOBLE VERSION. \e[0m"
+echo -e " "
+echo -e "\e[92;1m [2] PUBG-KR VERSION. \e[0m"
+echo -e " "
+echo -e "\e[92;1m [3] KEY-MAP. \e[0m"
+echo -e " "
+echo -e "\e[92;1m [4] RETURN TO MENU. \e[0m"
+echo -e " "
+echo -e "\e[91;1m [5] EXIT. \e[0m"
+echo -e " "
+echo -e "\e[96;1m[ PLEASE SELECT YOUR VERION FOR BACKUP & RESTORE. ]\e[0"
+read c
+echo -e "\e[92;1m[ SELECTED CHOICE IS $c ]\e[0m"
+echo -e " "
+echo -e "\e[93;1m[ PLEASE PRESS ANY KEY TO COUNTINUE. ]\e[0m"
+read
+clear
+case $c in
+1)
+echo -e " "
+echo -e "\e[93;1m[ YOUR SELECTED PUBG-GLOBLE VERSION. ]\e[0m"
+echo -e " "
+echo -e  "\e[98;1m[ PLEASE CHOICE YOUR OPTION ]\e[0m"
+echo -e  " "
+echo -e  "\e[92;1m [1] BACKUP_PUBGM.\e[0m"
+echo -e  " "
+echo -e  "\e[92;1m [2] RESTORE_PUBGM.\e[0m"
+echo -e  " "
+echo -e  " \e[92;1m[ CHOOSE YOUR CHOICE TO PERFORM ACTION. ]\e[0m"
+echo -e  " "
+read n
+echo -e "\e[92;1m[ SELECTED CHOICE IS $n ]\e[0m"
+echo -e " "
+echo -e "\e[93;1m[ PLEASE PRESS ANY KEY TO COUNTINUE. ]\e[0m"
+read
+clear
+case $n in
+1)
+echo -e  "\e[92;1m YOUR CHOICE IS PUBGM_BACKUP. \e[0m"
+echo -e  " "
+echo -e  "\e[92;1m [ CHECKING PERVIOUS BACKUP ]\e[0m"
+echo -e  " "
+{
+cd /storage/emulated/0
+F=/storage/emulated/0/PUBGM
+if [ -d "$F" ]; then
+echo -e  "\e[92;1m [ PUBGM_FOLDER IS FOUND. ]\e[0m"
+echo -e  " "
+echo -e  "\e[91;1m [ DELETING PUBGM_FOLDER FOR CREATING FRESH FOLDER. ]\e[0m"
+echo -e  " "
+cd /storage/emulated/0/
+rm -r PUBGM
+echo -e  "\e[92;1m [ PUBGM FOLDER IS REMOVED. ]\e[0m"
+echo -e  " "
+echo -e  "\e[92;1m [ CREATING PUBGM FOLDER WITH UPDATED FILES. ]\e[0m"
+echo -e  " "
+cd /storage/emulated/0
+mkdir PUBGM
+cd /storage/emulated/0/PUBGM
+mkdir DATA
+cd /storage/emulated/0/PUBGM/DATA
+mkdir com.tencent.ig
+cd /storage/emulated/0/PUBGM/DATA/com.tencent.ig
+mkdir files
+cd /storage/emulated/0/PUBGM/DATA/com.tencent.ig/files
+mkdir UE4Game
+cd /storage/emulated/0/PUBGM/DATA/com.tencent.ig/files/UE4Game
+mkdir ShadowTrackerExtra
+cd /storage/emulated/0/PUBGM/DATA/com.tencent.ig/files/UE4Game/ShadowTrackerExtra
+mkdir ShadowTrackerExtra
+cd /storage/emulated/0/PUBGM/DATA/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra
+mkdir Saved
+cd /storage/emulated/0/PUBGM
+mkdir OBB
+cd /storage/emulated/0/PUBGM
+mkdir APK
+echo -e  "\e[92;1m [ PUBGM_FOLDER IS CREATED SUCESSFULLY. ]\e[0m"
+echo -e  " "
+echo -e  "\e[93;1m [ STARTED COPYING ALL FILES IN PUBG_FOLDER. ]\e[0m"
+echo -e  " "
+echo -e  "\e[96;1m [ PLEASE WAIT......]\e[0m"
+echo -e  " "
+cd /storage/emulated/0/Android/obb
+#cp -r com.tencent.ig /storage/emulated/0/PUBGM/OBB
+rsync -r --info=progress2 com.tencent.ig /storage/emulated/0/PUBGM/OBB
+echo -e  " "
+cd /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/
+#cp -r paks /storage/emulated/0/PUBGM/DATA/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved
+rsync -r --info=progress2 paks /storage/emulated/0/PUBGM/DATA/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved
+echo -e  " "
+cd /data/app/com.tencent.ig-1/
+cp base.apk /storage/emulated/0/PUBGM/APK
+echo -e  "\e[92;1m [ 100% DONE. ]\e[0m"
+echo -e  " "
+echo -e  "\e[92;1m [ ALL PROCESS DONE PLEASE CHECK YOUR STORAGE FOLDER CALLED 'PUBGM' ]\e[0m"
+else
+echo -e  "\e[92;1m [ NO PUBGM_FOLDER IS FOUND. ]\e[0m"
+echo -e  " "
+echo -e  "\e[92;1m [ CREATING PUBGM FOLDER. ]\e[0m"
+echo -e  " "
+cd /storage/emulated/0
+mkdir PUBGM
+cd /storage/emulated/0/PUBGM
+mkdir DATA
+cd /storage/emulated/0/PUBGM/DATA
+mkdir com.tencent.ig
+cd /storage/emulated/0/PUBGM/DATA/com.tencent.ig
+mkdir files
+cd /storage/emulated/0/PUBGM/DATA/com.tencent.ig/files
+mkdir UE4Game
+cd /storage/emulated/0/PUBGM/DATA/com.tencent.ig/files/UE4Game
+mkdir ShadowTrackerExtra
+cd /storage/emulated/0/PUBGM/DATA/com.tencent.ig/files/UE4Game/ShadowTrackerExtra
+mkdir ShadowTrackerExtra
+cd /storage/emulated/0/PUBGM/DATA/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra
+mkdir Saved
+cd /storage/emulated/0/PUBGM
+mkdir OBB
+cd /storage/emulated/0/PUBGM
+mkdir APK
+echo -e  "\e[92;1m [ PUBGM_FOLDER IS CREATED SUCESSFULLY. ]\e[0m"
+echo -e  " "
+echo -e  "\e[93;1m [ STARTED COPYING ALL FILES IN PUBG_FOLDER. ]\e[0m"
+echo -e  " "
+echo -e  "\e[96;1m [ PLEASE WAIT......]\e[0m"
+echo -e  " "
+cd /storage/emulated/0/Android/obb
+rsync -r --info=progress2 com.tencent.ig /storage/emulated/0/PUBGM/OBB
+echo -e  " "
+cd /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/
+rsync -r --info=progress2 paks /storage/emulated/0/PUBGM/DATA/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved
+echo -e " "
+cd /data/app/com.tencent.ig-1/
+cp base.apk /storage/emulated/0/PUBGM/APK
+echo -e  " "
+echo -e  "\e[92;1m [ 100% DONE ]\e[0m"
+echo -e  " "
+echo -e  "\e[92;1m [ ALL PROCESS DONE PLEASE CHECK YOUR STORAGE FOLDER CALLED 'PUBGM' ]\e[0m"
+fi
+}
+echo -e  " " ;;
+2)
+echo -e  "\e[92;1m YOUR CHOICE IS RESTORE. \e[0m"
+echo -e  " "
+echo -e  "\e[96;1m CHECKING PUBG-FOLDER.\e[0m"
+echo -e  " "
+cd /storage/emulated/0
+F=/storage/emulated/0/PUBGM #if for pubg-folder
+if [ -d "$F" ]; then
+echo -e  "\e[92;1m PUBG FOLDER IS FOUND.....! \e[0m"
+echo -e  " "
+echo -e  "\e[93;1m RESTORE STARTED...! \e[0m"
+echo -e  " "
+cd /storage/emulated/0
+F=/storage/emulated/0/Android/obb
+if [ -d "$F" ]; then #if for obb checks
+cd /storage/emulated/0
+F=/storage/emulated/0/Android/obb/com.tencent.ig
+if [ -d "$F" ]; then #if for remove obb-contains
+cd /storage/emulated/0/Android/obb
+rm -R com.tencent.ig
+cd /storage/emulated/0/PUBGM/OBB
+rsync -r --info=progress2 com.tencent.ig /storage/emulated/0/Android/obb
+echo -e  " "
+cd /storage/emulated/0/PUBGM/DATA
+rsync -r --info=progress2 com.tencent.ig /storage/emulated/0/Android/data
+echo -e  " "
+cd /storage/emulated/0/PUBGM/APK
+pm install base.apk
+echo -e  " "
+echo -e  "\e[92;1m 100% DONE \e[0m"
+else
+cd /storage/emulated/0/PUBGM/OBB
+rsync -r --info=progress2 com.tencent.ig /storage/emulated/0/Android/obb
+echo -e  " "
+cd /storage/emulated/0/PUBGM/DATA
+rsync -r --info=progress2 com.tencent.ig /storage/emulated/0/Android/data
+echo -e  " "
+cd /storage/emulated/0/PUBGM/APK
+pm install base.apk
+echo -e  " "
+echo -e  "\e[92;1m 100% DONE \e[0m"
+fi
+else
+cd /storage/emulated/0/Android
+mkdir obb
+cd /storage/emulated/0
+F=/storage/emulated/0/Android/obb/com.tencent.ig
+if [ -d "$F" ]; then #if for remove obb-contains
+cd /storage/emulated/0/Android/obb
+rm -R com.tencent.ig
+cd /storage/emulated/0/PUBGM/OBB
+rsync -r --info=progress2 com.tencent.ig /storage/emulated/0/Android/obb
+echo -e  " "
+cd /storage/emulated/0/PUBGM/DATA
+rsync -r --info=progress2 com.tencent.ig /storage/emulated/0/Android/data
+echo -e  " "
+cd /storage/emulated/0/PUBGM/APK
+pm install base.apk
+echo -e  " "
+echo -e  "\e[92;1m 100% DONE \e[0m"
+else
+cd /storage/emulated/0/PUBGM/OBB
+rsync -r --info=progress2 com.tencent.ig /storage/emulated/0/Android/obb
+echo -e  " "
+cd /storage/emulated/0/PUBGM/DATA 
+rsync -r --info=progress2 com.tencent.ig /storage/emulated/0/Android/data
+echo -e  " "
+cd /storage/emulated/0/PUBGM/APK
+pm install base.apk
+echo -e  " "
+echo -e  "\e[92;1m 100% DONE \e[0m"
+fi
+fi
+else
+echo -e  "\e[91;1m PUBG_FOLDER DOES NOT EXITS. \e[0m"
+fi
+echo -e  " ";;
+esac
+echo -e " ";;
+2)
+echo -e " "
+echo -e "\e[93;1m[ YOUR SELECTED PUBG-KR VERSION. ]\e[0m"
+echo -e " "
+echo -e  "\e[98;1m[ PLEASE CHOICE YOUR OPTION ]\e[0m"
+echo -e  " "
+echo -e  "\e[92;1m [1] BACKUP_PUBGM.\e[0m"
+echo -e  " "
+echo -e  "\e[92;1m [2] RESTORE_PUBGM.\e[0m"
+echo -e  " "
+echo -e  " \e[92;1m[ CHOOSE YOUR CHOICE TO PERFORM ACTION. ]\e[0m"
+echo -e  " "
+read n
+echo -e " "
+echo -e "\e[92;1m[ SELECTED CHOICE IS $n ]\e[0m"
+echo -e " "
+echo -e "\e[93;1m[ PLEASE PRESS ANY KEY TO COUNTINUE. ]\e[0m"
+read
+clear
+case $n in
+1)
+echo -e  "\e[92;1m YOUR CHOICE IS PUBGM_BACKUP. \e[0m"
+echo -e  " "
+echo -e  "\e[92;1m [ CHECKING PERVIOUS BACKUP ]\e[0m"
+echo -e  " "
+{
+cd /storage/emulated/0
+F=/storage/emulated/0/PUBGM-1
+if [ -d "$F" ]; then
+echo -e  "\e[92;1m [ PUBGM_FOLDER IS FOUND. ]\e[0m"
+echo -e  " "
+echo -e  "\e[91;1m [ DELETING PUBGM_FOLDER FOR CREATING FRESH FOLDER. ]\e[0m"
+echo -e  " "
+cd /storage/emulated/0/
+rm -r PUBGM-1
+echo -e  "\e[92;1m [ PUBGM FOLDER IS REMOVED. ]\e[0m"
+echo -e  " "
+echo -e  "\e[92;1m [ CREATING PUBGM FOLDER WITH UPDATED FILES. ]\e[0m"
+echo -e  " "
+cd /storage/emulated/0
+mkdir PUBGM-1
+cd /storage/emulated/0/PUBGM-1
+mkdir DATA
+cd /storage/emulated/0/PUBGM-1/DATA
+mkdir com.pubg.krmobile
+cd /storage/emulated/0/PUBGM-1/DATA/com.pubg.krmobile
+mkdir files
+cd /storage/emulated/0/PUBGM-1/DATA/com.pubg.krmobile/files
+mkdir UE4Game
+cd /storage/emulated/0/PUBGM-1/DATA/com.pubg.krmobile/files/UE4Game
+mkdir ShadowTrackerExtra
+cd /storage/emulated/0/PUBGM-1/DATA/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra
+mkdir ShadowTrackerExtra
+cd /storage/emulated/0/PUBGM-1/DATA/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra
+mkdir Saved
+cd /storage/emulated/0/PUBGM-1
+mkdir OBB
+cd /storage/emulated/0/PUBGM-1
+mkdir APK
+echo -e  "\e[92;1m [ PUBGM_FOLDER IS CREATED SUCESSFULLY. ]\e[0m"
+echo -e  " "
+echo -e  "\e[93;1m [ STARTED COPYING ALL FILES IN PUBG_FOLDER. ]\e[0m"
+echo -e  " "
+echo -e  "\e[96;1m [ PLEASE WAIT......]\e[0m"
+echo -e  " "
+cd /storage/emulated/0/Android/obb
+rsync -r --info=progress2 com.pubg.krmobile /storage/emulated/0/PUBGM-1/OBB
+echo -e  " "
+cd /storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/
+rsync -r --info=progress2 paks /storage/emulated/0/PUBGM-1/DATA/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved
+echo -e  " "
+cd /data/app/com.pubg.krmobile-1/
+cp base.apk /storage/emulated/0/PUBGM-1/APK
+echo -e  "\e[92;1m [ 100% DONE. ]\e[0m"
+echo -e  " "
+echo -e  "\e[92;1m [ ALL PROCESS DONE PLEASE CHECK YOUR STORAGE FOLDER CALLED 'PUBGM' ]\e[0m"
+else
+echo -e  "\e[92;1m [ NO PUBGM_FOLDER IS FOUND. ]\e[0m"
+echo -e  " "
+echo -e  "\e[92;1m [ CREATING PUBGM FOLDER. ]\e[0m"
+echo -e  " "
+cd /storage/emulated/0
+mkdir PUBGM-1
+cd /storage/emulated/0/PUBGM-1
+mkdir DATA
+cd /storage/emulated/0/PUBGM-1/DATA
+mkdir com.pubg.krmobile
+cd /storage/emulated/0/PUBGM-1/DATA/com.pubg.krmobile
+mkdir files
+cd /storage/emulated/0/PUBGM-1/DATA/com.pubg.krmobile/files
+mkdir UE4Game
+cd /storage/emulated/0/PUBGM-1/DATA/com.pubg.krmobile/files/UE4Game
+mkdir ShadowTrackerExtra
+cd /storage/emulated/0/PUBGM-1/DATA/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra
+mkdir ShadowTrackerExtra
+cd /storage/emulated/0/PUBGM-1/DATA/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra
+mkdir Saved
+cd /storage/emulated/0/PUBGM-1
+mkdir OBB
+cd /storage/emulated/0/PUBGM-1
+mkdir APK
+echo -e  "\e[92;1m [ PUBGM_FOLDER IS CREATED SUCESSFULLY. ]\e[0m"
+echo -e  " "
+echo -e  "\e[93;1m [ STARTED COPYING ALL FILES IN PUBG_FOLDER. ]\e[0m"
+echo -e  " "
+echo -e  "\e[96;1m [ PLEASE WAIT......]\e[0m"
+echo -e  " "
+cd /storage/emulated/0/Android/obb
+rsync -r --info=progress2 com.pubg.krmobile /storage/emulated/0/PUBGM-1/OBB
+echo -e  " "
+cd /storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/
+rsync -r --info=progress2 paks /storage/emulated/0/PUBGM-1/DATA/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved
+echo -e " "
+cd /data/app/com.pubg.krmobile-1/
+cp base.apk /storage/emulated/0/PUBGM-1/APK
+echo -e  " "
+echo -e  "\e[92;1m [ 100% DONE ]\e[0m"
+echo -e  " "
+echo -e  "\e[92;1m [ ALL PROCESS DONE PLEASE CHECK YOUR STORAGE FOLDER CALLED 'PUBGM' ]\e[0m"
+fi
+}
+echo -e  " " ;;
+2)
+echo -e  "\e[92;1m YOUR CHOICE IS RESTORE. \e[0m"
+echo -e  " "
+echo -e  "\e[96;1m CHECKING PUBG-FOLDER.\e[0m"
+echo -e  " "
+cd /storage/emulated/0
+F=/storage/emulated/0/PUBGM-1 #if for pubg-folder
+if [ -d "$F" ]; then
+echo -e  "\e[92;1m PUBG FOLDER IS FOUND.....! \e[0m"
+echo -e  " "
+echo -e  "\e[93;1m RESTORE STARTED...! \e[0m"
+echo -e  " "
+cd /storage/emulated/0
+F=/storage/emulated/0/Android/obb
+if [ -d "$F" ]; then #if for obb checks
+cd /storage/emulated/0
+F=/storage/emulated/0/Android/obb/com.pubg.krmobile
+if [ -d "$F" ]; then #if for remove obb-contains
+cd /storage/emulated/0/Android/obb
+rm -R com.pubg.krmobile
+cd /storage/emulated/0/PUBGM-1/OBB
+rsync -r --info=progress2 com.pubg.krmobile /storage/emulated/0/Android/obb
+echo -e  " "
+cd /storage/emulated/0/PUBGM-1/DATA
+rsync -r --info=progress2 com.pubg.krmobile /storage/emulated/0/Android/data
+echo -e  " "
+cd /storage/emulated/0/PUBGM-1/APK
+pm install base.apk
+echo -e  " "
+echo -e  "\e[92;1m 100% DONE \e[0m"
+else
+cd /storage/emulated/0/PUBGM-1/OBB
+rsync -r --info=progress2 /storage/emulated/0/Android/obb
+echo -e  " "
+cd /storage/emulated/0/PUBGM-1/DATA
+rsync -r --info=progress2 com.pubg.krmobile /storage/emulated/0/Android/data
+echo -e  " "
+cd /storage/emulated/0/PUBGM-1/APK
+pm install base.apk
+echo -e  " "
+echo -e  "\e[92;1m 100% DONE \e[0m"
+fi
+else
+cd /storage/emulated/0/Android
+mkdir obb
+cd /storage/emulated/0
+F=/storage/emulated/0/Android/obb/com.pubg.krmobile
+if [ -d "$F" ]; then #if for remove obb-contains
+cd /storage/emulated/0/Android/obb
+rm -R com.pubg.krmobile
+cd /storage/emulated/0/PUBGM-1/OBB
+echo -e " "
+rsync -r --info=progress2 com.pubg.krmobile /storage/emulated/0/Android/obb
+echo -e  " "
+cd /storage/emulated/0/PUBGM-1/DATA
+rsync -r --info=progress2 com.pubg.krmobile /storage/emulated/0/Android/data
+echo -e  " "
+cd /storage/emulated/0/PUBGM-1/APK
+pm install base.apk
+echo -e  " "
+echo -e  "\e[92;1m 100% DONE \e[0m"
+else
+cd /storage/emulated/0/PUBGM-1/OBB
+echo -e " "
+rsync -r --info=progress2 com.pubg.krmobile /storage/emulated/0/Android/obb
+echo -e  " "
+cd /storage/emulated/0/PUBGM-1/DATA
+rsync -r --info=progress2 com.pubg.krmobile /storage/emulated/0/Android/data
+echo -e  " "
+cd /storage/emulated/0/PUBGM-1/APK
+pm install base.apk
+echo -e  " "
+echo -e  "\e[92;1m 100% DONE \e[0m"
+fi
+fi
+else
+echo -e  "\e[91;1m PUBG_FOLDER DOES NOT EXITS. \e[0m"
+fi
+echo -e  " ";;
+esac
+echo -e " ";;
+3)
+echo -e " "
+echo -e "\e[92;1m [ Keymapping Backup And Restore ]\e[0m"
+echo -e " "
+echo -e "\e[93;1m [ Script Made by Narendra of Ghost Team ]\e[0m"
+echo -e " "
+echo -e "\e[94;1m [ Backup will Store in internal Storage Of PhoenixOS ]\e[0m"
+echo -e " "
+echo -e "\e[96;1m [ Choose Your Option To Start Operation. ]\e[0m"
+echo -e " "
+sleep 2
+echo -e "\e[92;1m [1] Backup Keymap. \e[0m"
+echo -e  " "
+sleep 1
+echo -e "\e[93;1m [2] Restore Keymap. \e[0m"
+echo -e " "
+sleep 1
+echo -e "\e[94;1m [3] Return To Main Menu. \e[0m"
+echo -e " "
+sleep 1
+echo -e "\e[91;1m [4] Exit . \e[0m"
+echo -e " "
+sleep 1
+echo -e "\e[93;1m Enter Your Choice :- \e[0m"
+echo -e " "
+read n
+clear
+echo -e " "
+case $n in
+1)
+echo -e "\e[93;1m Your choice is [ $n ] KeyMap-backup.\e[0m"
+echo -e " "
+echo -e "\e[94;1m [ Starting Process......]\e[0m"
+sleep 0.2
+echo -e " "
+echo -e "\e[92;1m [ 10% ]\e[0m"
+cd /sdcard
+F=/sdcard/GH
+if [ -d "$F" ]; then
+rm -r GH
+sleep 0.4
+cd /sdcard
+mkdir GH
+echo -e " "
+echo -e "\e[92;1m [ 20% ]\e[0m"
+sleep 0.2
+cd /data/data/com.chaozhuo.gamemaster/files
+cp gamemaster_settings.json /sdcard/GH
+cp keymap_local_config_json /sdcard/GH
+echo -e " "
+echo -e "\e[92;1m [ 100% ]\e[0m"
+sleep 0.5
+echo -e " "
+echo -e "\e[93;1m [ Backup Sucessfull. ]\e[0m"
+echo -e " "
+echo -e "\e[92;1m [ Press Alt+f7 To return Home Screen. ]\e[0m"
+else
+echo -e " "
+echo -e "\e[93;1m [ No Old folder found ]\e[0m"
+cd /sdcard
+mkdir GH
+echo -e " "
+echo -e "\e[92;1m [ 20% ]\e[0m"
+sleep 0.2
+cd /data/data/com.chaozhuo.gamemaster/files
+cp gamemaster_settings.json /sdcard/GH
+cp keymap_local_config_json /sdcard/GH
+echo -e " "
+echo -e "\e[92;1m [ 100% ]\e[0m"
+sleep 0.5
+echo -e " "
+echo -e "\e[93;1m [ Backup Sucessfull. ]\e[0m"
+echo -e " "
+echo -e "\e[92;1m [ Press Alt+f7 To return Home Screen. ]\e[0m"
+fi
+echo -e " ";;
+2)
+echo -e "\e[92;1m [ Your choice is [ $n ] Restore Keymap. ]\e[0m"
+echo -e " "
+sleep 0.5
+F=/sdcard/GH
+if [ -d "$F" ]; then
+cd /data/data/com.chaozhuo.gamemaster/files
+rm -r gamemaster_settings.json
+rm -r keymap_local_config_json
+sleep 2
+monkey -p com.chaozhuo.gamemaster -c android.intent.category.LAUNCHER 1
+sleep 5
+am force-stop com.chaozhuo.gamemaster
+sleep 2
+cd /sdcard/GH
+cp gamemaster_settings.json /data/data/com.chaozhuo.gamemaster/files
+cp keymap_local_config_json /data/data/com.chaozhuo.gamemaster/files
+sleep 3
+cd /data/data/com.chaozhuo.gamemaster/files
+chmod 777 gamemaster_settings.json
+chmod 777 keymap_local_config_json
+echo -e "\e[92;1m [ Restore sucessfull ]\e[0m"
+echo -e " "
+echo -e "\e[93;1m [ Rebooting..... ]\e[0m"
+sleep 0.3
+reboot
+else
+echo -e "\e[91;1m [ Backup folder is not found ]/e[0m"
+echo -e " "
+echo -e "\e[93;1m [ Rebooting..... ]\e[0m"
+sleep 0.3
+reboot
+fi
+echo -e " ";;
+3)
+cd /system/bin
+./sos
+echo -e " ";;
+4)
+exit
+echo -e " ";;
+esac
+echo -e " " ;;
+4)
+echo -e " "
+cd /system/bin
+./sos ;;
+5)
+echo -e "\e[91;1m [ EXIT FROM SCRIPT. ]\e[0m"
+echo -e " "
+exit ;;
+esac 
+echo -e " ";;
+2)
+cat<< "EOF"
+_____      _                                 __  __           _
+| ____|_  _| |_ _ __ ___ _ __ ___   ___ _____|  \/  | ___   __| | ___
+|  _| \ \/ / __| '__/ _ \ '_ ` _ \ / _ \_____| |\/| |/ _ \ / _` |/ _ \
+| |___ >  <| |_| | |  __/ | | | | |  __/_____| |  | | (_) | (_| |  __/
+|_____/_/\_\\__|_|  \___|_| |_| |_|\___|     |_|  |_|\___/ \__,_|\___|
+EOF
+echo -e " "
+echo -e "\e[92;1m========================================================================================================================================================================= \e[0m"
+echo -e " "
+echo -e "\e[93;1m[ MADE BY SPECTRE ]\e[0m"
+echo -e  " "
+echo -e "\e[94;1m[ THIS SCRIPT IS USED TO OPTIMIZE PUBG GRAPHICS ACCORDING TO CHOICE AND ENABLE EXTREME FPS  ]\e[0m"
+echo -e " "
+echo -e "\e[93;1m[ THIS SCRIPT APPLIES SYSTEMWIDE GPU PROXY FEATURED BY GLTOOLS APP, THANKS TO THE DEV ]\e[0m"
+echo -e " "
+echo -e "\e[92;1m[ IF YOU'RE USING A TEMPLATE WITH NO EXTREME TAG, USE GFX TOOL BY TSOML, FOR ONCE TO ENABLE 60 FPS FOREVER ]\e[0m"
+echo -e  " "
+echo -e "\e[92;1m[ NOTE: SHOWING FPS IS DISABLED BY DEFAULT, BUT YOU CAN ENABLE IT MANUALLY VIA GLTOOLS APP AFTER ENABLING EXTREME MODE ]\e[0m"
+echo -e " "
+echo -e "\e[92;1m[ Select the options below ]\e[0m"
+echo -e  " "
+echo -e "\e[93;1m [1] ENABLE EXTREME MODE  \e[0m"
+echo -e " "
+echo -e "\e[94;1m [2] DISABLE EXTREME MODE \e[0m"
+echo -e " "
+read c
+clear
+case $c in
+1)
+echo -e "\e[96;1m[ ENABLING EXTREME MODE ]\e[0m"
+echo -e " "
+if [ -d /system/app/com.n0n3m4.gltools-1 ]; then
+pm clear com.n0n3m4.gltools
+elif [ -d /data/app/com.n0n3m4.gltools-1 ]; then
+pm clear com.n0n3m4.gltools
+else
+pm disable com.android.vending
+cd /system/etc/security/cacerts/.intel/proxy
+pm install -g GLTools.apk
+fi
+echo -e "\e[92;1m[ CHOOSE YOUR TEMPLATE ]\e[0m"
+echo -e  " "
+echo -e "\e[93;1m [1] MALI-G72 (EXTREME,STABLE FOR HIGH ENDS)   \e[0m"
+echo -e " "
+echo -e "\e[94;1m [2] MALI-G72 HYBRID (EXTREME,SMOOTHER,STABLE) \e[0m"
+echo -e " "
+echo -e "\e[93;1m [3] ADRENO 650 (BEST FOR COD, NOT FOR PUBG)   \e[0m"
+echo -e " "
+echo -e "\e[94;1m [4] APPLE A13 (BEST FOR PUBG KR,MOST SMOOTH FOR ALL DEVICES) \e[0m"
+echo -e " "
+echo -e "\e[93;1m [5] TEGRA SHIELD 4 (MEDIUM GRAPHICS,GOOD FPS, BEST FOR NVIDIA USERS)   \e[0m"
+echo -e " "
+echo -e "\e[94;1m [6] MALI T860 (LOW GRAPHICS, BETTER FOR LOW END) \e[0m"
+echo -e " "
+echo -e "\e[93;1m [7] G6430 (LOWEST GRAPHICS,RECOMMENTED FOR POTATO)   \e[0m"
+echo -e " "
+echo -e "\e[94;1m [8] MALI G76 (MOST STABLE FROM MALI, BETTER FOR ALL DEVICES) \e[0m"
+echo -e " "
+echo -e "\e[93;1m [9] CUSTOM TEMPLATE (PUT gl.zip in DOCUMENTS)   \e[0m"
+echo -e  " "
+read b
+clear
+case $b in
+1)
+echo -e "\e[96;1m[ INJECTING FAKE-GPU... ]\e[0m"
+echo -e  " "
+monkey -p com.n0n3m4.gltools -c android.intent.category.LAUNCHER 1
+sleep 3
+am force-stop com.n0n3m4.gltools
+pm enable com.android.vending
+cd /system/etc/security/cacerts/.intel/proxy/global/1
+cp -f uid_all.glt /data/data/com.n0n3m4.gltools/files/
+cp -f uid_all.xml /data/data/com.n0n3m4.gltools/shared_prefs/
+cd /data/data/com.n0n3m4.gltools/files
+chmod 755 uid_all.glt
+cd /data/data/com.n0n3m4.gltools/shared_prefs
+chmod 755 uid_all.xml
+if [ -d /data/app/com.n0n3m4.gltools-1 ]; then
+cd /data/app
+mv -f com.n0n3m4.gltools-1 /system/app/
+find /system/app -type d -exec chmod 755 {} \;
+find /system/app/com.n0n3m4.gltools-1 -type f -exec chmod 644 {} \;
+fi
+;;
+2)
+echo -e "\e[96;1m[ INJECTING FAKE-GPU... ]\e[0m"
+echo -e  " "
+monkey -p com.n0n3m4.gltools -c android.intent.category.LAUNCHER 1
+sleep 3
+am force-stop com.n0n3m4.gltools
+pm enable com.android.vending
+cd /system/etc/security/cacerts/.intel/proxy/global/2
+cp -f uid_all.glt /data/data/com.n0n3m4.gltools/files/
+cp -f uid_all.xml /data/data/com.n0n3m4.gltools/shared_prefs/
+cd /data/data/com.n0n3m4.gltools/files
+chmod 755 uid_all.glt
+cd /data/data/com.n0n3m4.gltools/shared_prefs
+chmod 755 uid_all.xml
+if [ -d /data/app/com.n0n3m4.gltools-1 ]; then
+cd /data/app
+mv -f com.n0n3m4.gltools-1 /system/app/
+find /system/app -type d -exec chmod 755 {} \;
+find /system/app/com.n0n3m4.gltools-1 -type f -exec chmod 644 {} \;
+fi
+;;
+3)
+echo -e "\e[96;1m[ INJECTING FAKE-GPU... ]\e[0m"
+echo -e  " "
+monkey -p com.n0n3m4.gltools -c android.intent.category.LAUNCHER 1
+sleep 3
+am force-stop com.n0n3m4.gltools
+pm enable com.android.vending
+cd /system/etc/security/cacerts/.intel/proxy/global/3
+cp -f uid_all.glt /data/data/com.n0n3m4.gltools/files/
+cp -f uid_all.xml /data/data/com.n0n3m4.gltools/shared_prefs/
+cd /data/data/com.n0n3m4.gltools/files
+chmod 755 uid_all.glt
+cd /data/data/com.n0n3m4.gltools/shared_prefs
+chmod 755 uid_all.xml
+if [ -d /data/app/com.n0n3m4.gltools-1 ]; then
+cd /data/app
+mv -f com.n0n3m4.gltools-1 /system/app/
+find /system/app -type d -exec chmod 755 {} \;
+find /system/app/com.n0n3m4.gltools-1 -type f -exec chmod 644 {} \;
+fi
+;;
+4)
+echo -e "\e[96;1m[ INJECTING FAKE-GPU... ]\e[0m"
+echo -e  " "
+monkey -p com.n0n3m4.gltools -c android.intent.category.LAUNCHER 1
+sleep 3
+am force-stop com.n0n3m4.gltools
+pm enable com.android.vending
+cd /system/etc/security/cacerts/.intel/proxy/global/4
+cp -f uid_all.glt /data/data/com.n0n3m4.gltools/files/
+cp -f uid_all.xml /data/data/com.n0n3m4.gltools/shared_prefs/
+cd /data/data/com.n0n3m4.gltools/files
+chmod 755 uid_all.glt
+cd /data/data/com.n0n3m4.gltools/shared_prefs
+chmod 755 uid_all.xml
+if [ -d /data/app/com.n0n3m4.gltools-1 ]; then
+cd /data/app
+mv -f com.n0n3m4.gltools-1 /system/app/
+find /system/app -type d -exec chmod 755 {} \;
+find /system/app/com.n0n3m4.gltools-1 -type f -exec chmod 644 {} \;
+fi
+;;
+5)
+echo -e "\e[96;1m[ INJECTING FAKE-GPU... ]\e[0m"
+echo -e  " "
+monkey -p com.n0n3m4.gltools -c android.intent.category.LAUNCHER 1
+sleep 3
+am force-stop com.n0n3m4.gltools
+pm enable com.android.vending
+cd /system/etc/security/cacerts/.intel/proxy/global/5
+cp -f uid_all.glt /data/data/com.n0n3m4.gltools/files/
+cp -f uid_all.xml /data/data/com.n0n3m4.gltools/shared_prefs/
+cd /data/data/com.n0n3m4.gltools/files
+chmod 755 uid_all.glt
+cd /data/data/com.n0n3m4.gltools/shared_prefs
+chmod 755 uid_all.xml
+if [ -d /data/app/com.n0n3m4.gltools-1 ]; then
+cd /data/app
+mv -f com.n0n3m4.gltools-1 /system/app/
+find /system/app -type d -exec chmod 755 {} \;
+find /system/app/com.n0n3m4.gltools-1 -type f -exec chmod 644 {} \;
+fi
+;;
+6)
+echo -e "\e[96;1m[ INJECTING FAKE-GPU... ]\e[0m"
+echo -e  " "
+monkey -p com.n0n3m4.gltools -c android.intent.category.LAUNCHER 1
+sleep 3
+am force-stop com.n0n3m4.gltools
+pm enable com.android.vending
+cd /system/etc/security/cacerts/.intel/proxy/global/6
+cp -f uid_all.glt /data/data/com.n0n3m4.gltools/files/
+cp -f uid_all.xml /data/data/com.n0n3m4.gltools/shared_prefs/
+cd /data/data/com.n0n3m4.gltools/files
+chmod 755 uid_all.glt
+cd /data/data/com.n0n3m4.gltools/shared_prefs
+chmod 755 uid_all.xml
+if [ -d /data/app/com.n0n3m4.gltools-1 ]; then
+cd /data/app
+mv -f com.n0n3m4.gltools-1 /system/app/
+find /system/app -type d -exec chmod 755 {} \;
+find /system/app/com.n0n3m4.gltools-1 -type f -exec chmod 644 {} \;
+fi
+;;
+7)
+echo -e "\e[96;1m[ INJECTING FAKE-GPU... ]\e[0m"
+echo -e  " "
+monkey -p com.n0n3m4.gltools -c android.intent.category.LAUNCHER 1
+sleep 3
+am force-stop com.n0n3m4.gltools
+pm enable com.android.vending
+cd /system/etc/security/cacerts/.intel/proxy/global/7
+cp -f uid_all.glt /data/data/com.n0n3m4.gltools/files/
+cp -f uid_all.xml /data/data/com.n0n3m4.gltools/shared_prefs/
+cd /data/data/com.n0n3m4.gltools/files
+chmod 755 uid_all.glt
+cd /data/data/com.n0n3m4.gltools/shared_prefs
+chmod 755 uid_all.xml
+if [ -d /data/app/com.n0n3m4.gltools-1 ]; then
+cd /data/app
+mv -f com.n0n3m4.gltools-1 /system/app/
+find /system/app -type d -exec chmod 755 {} \;
+find /system/app/com.n0n3m4.gltools-1 -type f -exec chmod 644 {} \;
+fi
+;;
+8)
+echo -e "\e[96;1m[ INJECTING FAKE-GPU... ]\e[0m"
+echo -e  " "
+monkey -p com.n0n3m4.gltools -c android.intent.category.LAUNCHER 1
+sleep 3
+am force-stop com.n0n3m4.gltools
+pm enable com.android.vending
+cd /system/etc/security/cacerts/.intel/proxy/global/8
+cp -f uid_all.glt /data/data/com.n0n3m4.gltools/files/
+cp -f uid_all.xml /data/data/com.n0n3m4.gltools/shared_prefs/
+cd /data/data/com.n0n3m4.gltools/files
+chmod 755 uid_all.glt
+cd /data/data/com.n0n3m4.gltools/shared_prefs
+chmod 755 uid_all.xml
+if [ -d /data/app/com.n0n3m4.gltools-1 ]; then
+cd /data/app
+mv -f com.n0n3m4.gltools-1 /system/app/
+find /system/app -type d -exec chmod 755 {} \;
+find /system/app/com.n0n3m4.gltools-1 -type f -exec chmod 644 {} \;
+fi
+;;
+9)
+echo -e "\e[96;1m[ INJECTING FAKE-GPU... ]\e[0m"
+echo -e  " "
+monkey -p com.n0n3m4.gltools -c android.intent.category.LAUNCHER 1
+sleep 3
+am force-stop com.n0n3m4.gltools
+pm enable com.android.vending
+if [ -e /data/media/0/Documents/gl.zip ]; then
+cd  /data/media/0/Documents
+unzip -oq gl
+cd /data/media/0/Documents
+mv -f uid_all.glt /data/data/com.n0n3m4.gltools/files/
+cd /data/media/0/Documents
+mv -f uid_all.xml /data/data/com.n0n3m4.gltools/shared_prefs/
+cd /data/data/com.n0n3m4.gltools/files
+chmod 755 uid_all.glt
+cd /data/data/com.n0n3m4.gltools/shared_prefs
+chmod 755 uid_all.xml
+else
+echo -e "\e[94;1m[ Custom Temaplate not found, Ask Developer for More Info ]\e[0m"
+echo -e  " "
+sleep 3
+fi
+if [ -d /data/app/com.n0n3m4.gltools-1 ]; then
+cd /data/app
+mv -f com.n0n3m4.gltools-1 /system/app/
+find /system/app -type d -exec chmod 755 {} \;
+find /system/app/com.n0n3m4.gltools-1 -type f -exec chmod 644 {} \;
+fi
+;;
+esac
+echo -e "\e[96;1m[ UPDATING LIBS ]\e[0m"
+echo -e  " "
+if [ -e /system/lib/libEGL_orig.so ]; then
+cd /system/etc/security/cacerts/.intel/proxy
+cp -f uninstall_gltools.zip /data/media/0/
+cd /system/etc/security/cacerts/.intel/proxy/lib
+find -type f -exec chmod 644 {} \;
+cd /system/etc/security/cacerts/.intel/proxy/lib
+cp -rpf *.so /system/lib
+cd /system/etc/security/cacerts/.intel/proxy/lib64
+find -type f -exec chmod 644 {} \;
+cd /system/etc/security/cacerts/.intel/proxy/lib64
+cp -rpf *.so /system/lib64
+sleep 3
+echo -e "\e[96;1m[ HeHe Boi ]\e[0m"
+echo -e " "
+echo -e "\e[93;1m[ Rebooting ]\e[0m"
+sleep 3
+reboot
+else
+cd /system/etc/security/cacerts/.intel/proxy
+cp -f uninstall_gltools.zip /data/media/0/
+cd /system/lib
+mv -f libEGL.so libEGL_orig.so
+cd /system/lib
+mv -f libGLESv1_CM.so libGLESv1_CM_orig.so
+cd /system/lib
+mv -f libGLESv2.so libGLESv2_orig.so
+cd /system/lib
+mv -f libGLESv3.so libGLESv3_orig.so
+cd /system/lib64
+mv -f libEGL.so libEGL_orig.so
+cd /system/lib64
+mv -f libGLESv1_CM.so libGLESv1_CM_orig.so
+cd /system/lib64
+mv -f libGLESv2.so libGLESv2_orig.so
+cd /system/lib64
+mv -f libGLESv3.so libGLESv3_orig.so
+cd /system/etc/security/cacerts/.intel/proxy/lib
+find -type f -exec chmod 644 {} \;
+cd /system/etc/security/cacerts/.intel/proxy/lib
+cp -rpf *.so /system/lib
+cd /system/etc/security/cacerts/.intel/proxy/lib64
+find -type f -exec chmod 644 {} \;
+cd /system/etc/security/cacerts/.intel/proxy/lib64
+cp -rpf *.so /system/lib64
+sleep 3
+echo -e "\e[96;1m[ HeHe Boi ]\e[0m"
+echo -e " "
+echo -e "\e[93;1m[ Rebooting ]\e[0m"
+sleep 3
+reboot
+fi
+;;
+2)
+echo -e "\e[91;1m[ DISABLING EXTREME MODE ]\e[0m"
+echo -e  " "
+cd /system/app
+rm -rf com.n0n3m4.gltools-1
+cd /data/media/0
+rm -f uninstall_gltools.zip
+cd /data/data
+rm -rf com.n0n3m4.gltools
+cd /system/lib
+mv -f libEGL_orig.so libEGL.so
+cd /system/lib
+mv -f libGLESv1_CM_orig.so libGLESv1_CM.so
+cd /system/lib
+mv -f libGLESv2_orig.so libGLESv2.so
+cd /system/lib
+mv -f  libGLESv3_orig.so libGLESv3.so
+cd /system/lib64
+mv -f libEGL_orig.so libEGL.so
+cd /system/lib64
+mv -f libGLESv1_CM_orig.so libGLESv1_CM.so
+cd /system/lib64
+mv -f libGLESv2_orig.so libGLESv2.so
+cd /system/lib64
+mv -f  libGLESv3_orig.so libGLESv3.so
+find /system -type d -exec chmod 755 {} \;
+find /system/lib -type f -exec chmod 644 {} \;
+find /system/lib64 -type f -exec chmod 644 {} \;
+sleep 3
+echo -e "\e[96;1m[ HeHe Boi ]\e[0m"
+echo -e " "
+echo -e "\e[93;1m[ Rebooting ]\e[0m"
+sleep 3
+reboot
+;;
+esac
+echo -e " ";;
+3)
+echo -e "\e[92;1m=====================================================================================================================\e[0m"
+echo -e " "
+cat<<"EOF"
+_                      ____        __       _     _
+(_)_ __ ___   __ _     |___ \      / _| ___ | | __| | ___ _ __
+| | '_ ` _ \ / _` |_____ __) |____| |_ / _ \| |/ _` |/ _ \ '__|
+| | | | | | | (_| |_____/ __/_____|  _| (_) | | (_| |  __/ |
+|_|_| |_| |_|\__, |    |_____|    |_|  \___/|_|\__,_|\___|_|
+             |___/
+
+EOF
+echo -e " "
+echo -e "\e[92;1m=====================================================================================================================\e[0m"
+echo -e " "
+cd /system/bin
+chmod 777 rsync
+echo -e "\e[92;1m[ Press Enter To img2folder ]\e[0m"
+read
+clear
+echo -e "\e[92;1m=====================================================================================================================\e[0m"
+echo -e " "
+cat<<"EOF"
+_                      ____        __       _     _
+(_)_ __ ___   __ _     |___ \      / _| ___ | | __| | ___ _ __
+| | '_ ` _ \ / _` |_____ __) |____| |_ / _ \| |/ _` |/ _ \ '__|
+| | | | | | | (_| |_____/ __/_____|  _| (_) | | (_| |  __/ |
+|_|_| |_| |_|\__, |    |_____|    |_|  \___/|_|\__,_|\___|_|
+             |___/
+EOF
+echo -e " "
+echo -e "\e[92;1m=====================================================================================================================\e[0m"
+echo -e " "
+echo -e "\e[96;1m[ Created By Narendra From Ghost Team. ]\e[0m"
+echo -e " "
+echo -e "\e[91;1m [ Note: Before proceeding make sure you have "heheboi.txt" file with your OS files.]\e[0m"
+echo -e " "
+echo -e "\e[93;1m [ Choose Your Action Here ]\e[0m"
+echo -e " "
+echo -e "\e[92;1m [1] SYSTEM.IMG TO SYSTEM FOLDER.\e[0m"
+echo -e " "
+echo -e "\e[95;1m [2] Return To Main Menu. \e[0m"
+echo -e " "
+echo -e "\e[91;1m [3] Exit. \e[0m"
+echo -e " "
+echo -e "\e[93;1m Choose Your Option Here \e[0m"
+echo -e " "
+read c
+clear 
+case $c in
+1)
+echo -e "\e[93;1m[ Your choice Is System folder $c \e[0m"
+echo -e " "
+x=$(df /data/ | awk '/^\/dev/ {print $1}')
+cd /sdcard
+mkdir -m 777 ext4
+mount -t ext4 -rw $x /sdcard/ext4
+y=$(find /sdcard/ext4 -maxdepth 4 -type f -name heheboi.txt)
+z=${y%/*}
+F=$z/system.img
+if [ -f "$F" ]; then
+echo -e "\e[93;1m[ System.img is being converted To System Folder... ]\e[0m"
+echo -e " "
+cd /
+echo -e "\e[96;1m          Progress   \e[95;1m   Speed     \e[93;1m   Time\e[0m"
+rsync -a --info=progress2 system /$z
+sleep 1
+echo -e " "
+echo -e "\e[93;1m[ Backup system.img ]\e[0m"
+cd /$z
+mv system.img system.bak
+echo -e " "
+echo -e "\e[95;1m[ Finishing up... ]\e[0m"
+sync
+sleep 0.5
+cd /sdcard
+umount -t ext4 $x
+cd /sdcard
+rmdir ext4
+sleep 0.6
+echo -e " "
+echo -e "\e[93;1m[ Heheboi........]\e[0m"
+sleep 0.5
+echo -e " "
+echo -e "\e[93;1m[ Rebooting........]\e[0m"
+sleep 0.5
+reboot
+else
+echo -e "\e[94;1m[ System folder already Exists... ]\e[0m"
+echo -e " "
+cd /sdcard
+umount -t ext4 $x
+cd /sdcard
+rmdir ext4
+echo -e "\e[93;1m[ Press Alt + f7  To close Terminal...]\e[0m"
+echo -e " "
+fi ;;
+2)
+cd /system/bin
+./sos ;;
+3)
+exit ;;
+esac
+echo -e " ";;
+4)
+cat << "EOF"
+____        _                 ____       __               _
+|  _ \ _   _| |__   __ _      |  _ \ ___ / _|_ __ ___  ___| |__   ___ _ __
+| |_) | | | | '_ \ / _` |_____| |_) / _ \ |_| '__/ _ \/ __| '_ \ / _ \ '__|
+|  __/| |_| | |_) | (_| |_____|  _ <  __/  _| | |  __/\__ \ | | |  __/ |
+|_|    \__,_|_.__/ \__, |     |_| \_\___|_| |_|  \___||___/_| |_|\___|_|
+                   |___/
+EOF
+sleep 1
+echo -e "\e[93;1m[ MADE BY SPECTRE ]\e[0m"
+echo -e  " "
+echo -e "\e[92;1m[ THIS SCRIPT IS USED TO REFRESH PUBG ]\e[0m"
+echo -e " "
+echo -e "\e[91;1m[ CAUTION: DONT USE THIS SCRIPT UNNECESSARILY , USE ONLY WHEN PUBG BECAME EXTREMELY LAGGY/UNPLAYABLE ]\e[0m"
+echo -e " "
+echo -e "\e[93;1m[ TIP: IF YOU'RE LOW END USER DONT DOWNLOAD RESOURCE PACKS AND OTHER MAPS EXCEPT TDM AND YOUR FAVOURITE MAP TO AVOID LAG ]\e[0m"
+echo -e " "
+echo -e "\e[93;1m[ DON'T FORGET TO SET YOUR DESIRED GRAPHICS PRESET IN PUBG SETTINGS, AFTER COMPLETING THE SCRIPT ]\e[0m"
+echo -e " "
+echo -e "\e[96;1m[ PRESS ENTER TO CONTINUE ]\e[0m"
+echo -e " "
+read c
+echo -e "\e[96;1m[ CHOOSE YOUR GAME PACKAGE ]\e[0m"
+echo -e " "
+echo -e "\e[93;1m [1] PUBG GLOBAL  \e[0m"
+echo -e " "
+echo -e "\e[94;1m [2] PUBG KR  \e[0m"
+echo -e " "
+read c
+clear
+case $c in
+1)
+echo -e "\e[96;1m[ CLEARING BROKEN CACHED DATA ]\e[0m"
+echo -e  " "
+rm -rf /data/media/0/Android/data/com.tencent.ig/files/ProgramBinaryCache/*
+rm -rf /data/media/0/Android/data/com.tencent.ig/cache
+echo -e "\e[98;1m[ SETTING UP THE ORIGINAL STATE ]\e[0m"
+echo -e  " "
+rm -f /data/media/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/UserCustom.ini
+sleep 3
+echo -e "\e[92;1m[ HeHe Boi ]\e[0m"
+echo -e  " "
+echo -e "\e[98;1m[ Press ALT+F7 or ALT+FN+F7 to Exit ]\e[0m"
+;;
+2)
+echo -e "\e[96;1m[ CLEARING BROKEN CACHED DATA ]\e[0m"
+echo -e  " "
+rm -rf /data/media/0/Android/data/com.pubg.krmobile/files/ProgramBinaryCache/*
+rm -rf /data/media/0/Android/data/com.pubg.krmobile/cache
+echo -e "\e[98;1m[ SETTING UP THE ORIGINAL STATE ]\e[0m"
+echo -e  " "
+rm -f /data/media/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/UserCustom.ini
+sleep 3
+echo -e "\e[92;1m[ HeHe Boi ]\e[0m"
+echo -e  " "
+echo -e "\e[98;1m[ Press ALT+F7 or ALT+FN+F7 to Exit ]\e[0m"
+;;
+esac
+echo -e " ";;
+5)
+cat<< "EOF"
+____            __
+|  _ \ ___ _ __ / _|_ __ ___  _ __ ___   __ _ _ __   ___ ___
+| |_) / _ \ '__| |_| '__/ _ \| '_ ` _ \ / _` | '_ \ / __/ _ \
+|  __/  __/ |  |  _| | | (_) | | | | | | (_| | | | | (_|  __/
+|_|   \___|_|  |_| |_|  \___/|_| |_| |_|\__,_|_| |_|\___\___|
+EOF
+echo -e " "
+echo -e "\e[94;1m[ THIS SCRIPT IS MADE BY SPECTRE ]\e[0m"
+echo -e  " "
+echo -e "\e[92;1m[ CPU GOVERNOR TWEAK ADDED BY xxDaKsHxx ]\e[0m"
+echo -e  " "
+echo -e "\e[93;1m[ THIS SCRIPT IS USED TO OPTIMIZE OVERALL PERFORMANCE OF THE SYSTEM  ]\e[0m"
+echo -e " "
+echo -e "\e[92;1m[ Select the options below ]\e[0m"
+echo -e  " " 
+echo -e "\e[93;1m [1] ENABLE  \e[0m"
+echo -e " "
+echo -e "\e[94;1m [2] DISABLE \e[0m"
+echo -e " "
+read c
+clear
+case $c in
+1)
+echo -e "\e[96;1m[ ENABLING PERFORMANCE GOVERNOR ]\e[0m"
+echo -e  " "
+cd /system/etc/security/cacerts/.intel/init
+cp -f init1 /system/etc/
+cd /system/etc
+mv -f init1 init.sh
+cd /system/etc
+chmod 755 init.sh
+sleep 2
+echo -e "\e[96;1m[ TWEAKING I/O SCHEDULER ]\e[0m"
+echo -e  " "
+cd /system/etc/security/cacerts/.intel/init
+cp -f build1 /system/
+cd /system
+mv -f build1 build.prop
+chmod 644 build.prop
+sleep 2
+echo -e "\e[96;1m[ OPTIMIZING TCP CONGESTION CONTROLS ]\e[0m"
+echo -e  " "
+sleep 2
+echo -e "\e[92;1m[ HeHe ]\e[0m"
+echo -e " "
+echo -e "\e[93;1m[ Rebooting ]\e[0m"
+sleep 3
+reboot
+;;
+2)
+echo -e "\e[96;1m[ DISABLING PERFORMANCE GOVERNOR ]\e[0m"
+echo -e  " "
+cd /system/etc/security/cacerts/.intel/init
+cp -f init0 /system/etc/
+cd /system/etc
+mv -f init0 init.sh
+cd /system/etc
+chmod 755 init.sh
+sleep 2
+echo -e "\e[96;1m[ SETTING UP ORIGINAL STATE OF I/O SCHEDULER ]\e[0m"
+echo -e  " "
+cd /system/etc/security/cacerts/.intel/init
+cp -f build0 /system/
+cd /system
+mv -f build0 build.prop
+chmod 644 build.prop
+sleep 2
+echo -e "\e[96;1m[ SETTING UP ORIGINAL STATE OF TCP CONGESTION CONTROLS ]\e[0m"
+echo -e  " "
+sleep 2
+echo -e "\e[92;1m[ HeHe Boi ]\e[0m"
+echo -e " "
+echo -e "\e[93;1m[ Rebooting ]\e[0m"
+sleep 3
+reboot
+;;
+esac
+echo -e " ";;
+6)
+echo -e "\e[92;1m=========================================================================================================================================================================\e[0m"
+echo -e " "
+cat<< "EOF"
+____             _                     _____                    _
+/ ___| _   _  ___| |_ ___ _ __ ___     |_   _|_      _____  __ _| | _____
+\___ \| | | |/ _ \ __/ _ \ '_ ` _ \ _____| | \ \ /\ / / _ \/ _` | |/ / __|
+ ___) | |_| |  __/ ||  __/ | | | | |_____| |  \ V  V /  __/ (_| |   <\__ \
+|____/ \__, |\___|\__\___|_| |_| |_|     |_|   \_/\_/ \___|\__,_|_|\_\___/
+       |___/
+EOF
+echo -e " "
+echo -e "\e[92;1m==========================================================================================================================================================================\e[0m"
+echo -e " "
+sleep 0.1
+echo -e " "
+echo -e "\e[92;1m [1] Animation. \e[0m"
+sleep 0.1
+echo -e " "
+echo -e "\e[93;1m [2] Arm Translations. \e[0m"
+sleep 0.1
+echo -e " "
+echo -e "\e[94;1m [3] Clear Cache. \e[0m"
+echo -e " "
+sleep 0.1
+echo -e "\e[95;1m [4] Custom Rsolution Changer. \e[0m"
+sleep 0.1
+echo -e " "
+echo -e "\e[93;1m [5] Enable & Disable CZ. \e[0m"
+sleep 0.1
+echo -e " "
+echo -e "\e[94;1m [6] Firmware Update. \e[0m"
+sleep 0.1
+echo -e " "
+echo -e "\e[92;1m [7] Init Trigger. \e[0m"
+sleep 0.1
+echo -e " "
+echo -e "\e[95;1m [8] Remove & Restore Gapps. \e[0m"
+sleep 0.1
+echo -e " "
+echo -e "\e[96;1m [9] System Update (Future Updates).\e[0m"
+sleep 0.1
+echo -e " "
+echo -e "\e[92;1m [10] Return To Main Menu. \e[0m"
+sleep 0.1
+echo -e " "
+echo -e " "
+sleep 0.1
+echo -e "\e[93;1m Enter Your Choice :- \e[0m"
+echo -e " "
+read c
+clear
+case $c in
+1)
+cat<< "EOF"
+    _          _                 _   _
+   / \   _ __ (_)_ __ ___   __ _| |_(_) ___  _ __
+  / _ \ | '_ \| | '_ ` _ \ / _` | __| |/ _ \| '_ \
+ / ___ \| | | | | | | | | | (_| | |_| | (_) | | | |
+/_/   \_\_| |_|_|_| |_| |_|\__,_|\__|_|\___/|_| |_|
+EOF
+echo -e " "
+echo -e "\e[92;1m ================================================================================================================================================================= \e[0m"
+echo -e " "
+echo -e "\e[93;1m[ MADE BY SPECTRE ]\e[0m"
+echo -e  " "
+echo -e "\e[94;2m[ THIS SCRIPT IS USED TO MANAGE ANDROID ANIMATION  ]\e[0m"
+echo -e " "
+echo -e "\e[92;1m[ Select the options below ]\e[0m"
+echo -e  " "
+echo -e "\e[93;1m [1] NO ANIMATION.  \e[0m"
+echo -e " "
+echo -e "\e[94;1m [2] LESS ANIMATION. \e[0m"
+echo -e " "
+echo -e "\e[96;1m [3] Default ANIMATION. \e[0m"
+echo -e " "
+read c
+clear
+case $c in
+1)
+echo -e "\e[96;1m[ TWEAKING SETTINGS... ]\e[0m"
+settings put global window_animation_scale 0
+settings put global transition_animation_scale 0
+settings put global animator_duration_scale 0
+sleep 3
+echo -e " "
+echo -e "\e[96;1m[ HeHe Boi ]\e[0m"
+echo -e " "
+echo -e "\e[93;1m[ Press ALT+F7 or ALT+FN+F7 to Exit ]\e[0m"
+sleep 3
+;;
+2)
+echo -e "\e[96;1m[ TWEAKING SETTINGS... ]\e[0m"
+settings put global window_animation_scale 0.5
+settings put global transition_animation_scale 0.5
+settings put global animator_duration_scale 0.5
+sleep 3
+echo -e " "
+echo -e "\e[94;1m[ HeHe Boi ]\e[0m"
+echo -e " "
+echo -e "\e[96;1m[ Press ALT+F7 or ALT+FN+F7 to Exit ]\e[0m"
+sleep 3
+;;
+3)
+echo -e "\e[96;1m[ TWEAKING SETTINGS... ]\e[0m"
+settings put global window_animation_scale 1
+settings put global transition_animation_scale 1
+settings put global animator_duration_scale 1
+sleep 3
+echo -e " "
+echo -e "\e[94;1m[ HeHe Boi ]\e[0m"
+echo -e " "
+echo -e "\e[96;1m[ Press ALT+F7 or only F7 to Exit ]\e[0m"
+sleep 3
+;;
+esac
+echo -e " ";;
+2)
+cat << "EOF"
+    _                       _____                    _       _   _
+   / \   _ __ _ __ ___     |_   _| __ __ _ _ __  ___| | __ _| |_(_) ___  _ __
+  / _ \ | '__| '_ ` _ \ _____| || '__/ _` | '_ \/ __| |/ _` | __| |/ _ \| '_ \
+ / ___ \| |  | | | | | |_____| || | | (_| | | | \__ \ | (_| | |_| | (_) | | | |
+/_/   \_\_|  |_| |_| |_|     |_||_|  \__,_|_| |_|___/_|\__,_|\__|_|\___/|_| |_|
+
+EOF
+echo -e " "
+echo -e  "\e[92;1m[ THIS SCRIPT MADE BY SPECTRE  ]\e[0m"
+echo -e  " "
+echo -e  "\e[93;1m[ IT IS USED TO TOGGLE BETWEEN DIFFERENT ARM TRANSLATIONS ]\e[0m"
+echo -e " "
+echo -e  "\e[94;1m[ CAUTION: ONLY CLASSICAL ONE IS SAFE FOR PUBG SO OTHER TRANSLATIONS DISABLES PUBG IF EXISTS ]\e[0m"
+echo -e " "
+echo -e "\e[92;1m[ NOTE: WATCH OUT THE SAFETY STATUS IF YOU WANNA BE SURE  ]\e[0m"
+echo -e  " " 
+echo -e "\e[92;1m[ THANKS TO ANDROID-X86 AND Rprop (GITHUB) ]\e[0m"
+echo -e  " " 
+echo -e "\e[93;1m PRESS ENTER TO CONTINUE ]\e[0m"
+echo -e " "
+read c
+echo -e "\e[92;1m[ CHOOSE YOUR TRANSLATIONS BELOW ]\e[0m"
+echo -e  " " 
+echo -e "\e[93;1m [1] CLASSICAL BRIDGE (DEFAULT, FOR PUBG AND OTHER GAMES) \e[0m"
+echo -e " "
+echo -e "\e[94;1m [2] QUANTUM BRIDGE (PASSIVE, CODM COMPATIBLE, NOT FOR PUBG) \e[0m"
+echo -e  " " 
+echo -e "\e[93;1m [3] FICTION BRIDGE (BUILT TO BRING FUTURE SUPPORT) \e[0m"
+echo -e  " "
+read b
+clear
+case $b in
+1)
+echo -e "\e[96;1m[ BUILDING CLASSICAL BRIDGE ]\e[0m"
+echo -e  " "
+cd /system/etc/security/cacerts/.intel/bridge
+unzip -oq arm0
+find /system/etc/security/cacerts/.intel/bridge -type d -exec chmod 755 {} \;
+find /system/etc/security/cacerts/.intel/bridge/arm -type f -exec chmod 644 {} \;
+cd /system/etc/security/cacerts/.intel/bridge
+chmod 644 libhoudini.so
+cd /system/lib
+rm -rf arm
+cd /system/etc/security/cacerts/.intel/bridge
+cp -rpf arm /system/lib/
+cd /system/etc/security/cacerts/.intel/bridge
+cp -pf libhoudini.so /system/lib/
+cd /system/etc/security/cacerts/.intel/bridge
+rm -rf arm
+cd /system/etc/security/cacerts/.intel/bridge
+rm -f libhoudini.so
+echo -e "\e[96;1m[ ENABLING PUBG IF EXISTS ]\e[0m"
+echo -e  " "
+if [ -d /data/app/com.tencent.ig-1 ]; then
+pm enable com.tencent.ig
+fi
+if [ -d /data/app/com.pubg.krmobile-1 ]; then
+pm enable com.pubg.krmobile
+fi
+sleep 3
+echo -e "\e[92;1m[ HeHe Boi ]\e[0m"
+echo -e  " "
+echo -e "\e[98;1m[ Rebooting ]\e[0m"
+sleep 3
+reboot
+;;
+2)
+echo -e "\e[96;1m[ BUILDING QUANTUM BRIDGE ]\e[0m"
+echo -e  " "
+cd /system/etc/security/cacerts/.intel/bridge
+unzip -oq arm1
+find /system/etc/security/cacerts/.intel/bridge -type d -exec chmod 755 {} \;
+find /system/etc/security/cacerts/.intel/bridge/arm -type f -exec chmod 644 {} \;
+cd /system/etc/security/cacerts/.intel/bridge
+chmod 644 libhoudini.so
+cd /system/lib
+rm -rf arm
+cd /system/etc/security/cacerts/.intel/bridge
+cp -rpf arm /system/lib/
+cd /system/etc/security/cacerts/.intel/bridge
+cp -pf libhoudini.so /system/lib/
+cd /system/etc/security/cacerts/.intel/bridge
+rm -rf arm
+cd /system/etc/security/cacerts/.intel/bridge
+rm -f libhoudini.so
+echo -e "\e[96;1m[ DISABLING PUBG IF EXISTS ]\e[0m"
+echo -e  " "
+if [ -d /data/app/com.tencent.ig-1 ]; then
+pm disable com.tencent.ig
+fi
+if [ -d /data/app/com.pubg.krmobile-1 ]; then
+pm disable com.pubg.krmobile
+fi
+sleep 3
+echo -e "\e[92;1m[ HeHe Boi ]\e[0m"
+echo -e  " "
+echo -e "\e[98;1m[ Rebooting ]\e[0m"
+sleep 3
+reboot
+;;
+3)
+echo -e "\e[96;1m[ SEARCHING FOR FICTION BRIDGE ]\e[0m"
+echo -e  " "
+if [ -e /data/media/0/Documents/*.zip ]; then
+echo -e  "\e[92;1m FICTION BRIDGE FOUND.....! \e[0m"
+echo -e  " "
+cd /data/media/0/Documents/
+mv *.zip arm.zip
+cd /data/media/0/Documents/
+unzip -oq arm
+else
+echo -e  "\e[98;1m[ FICTION BRIDGE NOT FOUND.... ASK GHOST TEAM ]\e[0m"
+echo -e  " "
+fi
+A=/data/media/0/Documents/arm
+if [ -d "$A" ]; then
+echo -e  "\e[92;1m[ SOURCE VERIFIED SUCCESSFULLY...! ] \e[0m"
+echo -e  " "
+find /data/media/0/Documents -type d -exec chmod 755 {} \;
+find /data/media/0/Documents/arm -type f -exec chmod 644 {} \;
+cd /data/media/0/Documents
+chmod 644 libhoudini.so
+cd /system/lib
+rm -rf arm
+cd /data/media/0/Documents
+cp -rpf arm /system/lib/
+cd /data/media/0/Documents
+cp -pf libhoudini.so /system/lib/
+cd /data/media/0/Documents
+rm -rf arm
+cd /data/media/0/Documents
+rm -f libhoudini.so
+echo -e "\e[96;1m[ DISABLING PUBG IF EXISTS ]\e[0m"
+echo -e  " "
+if [ -d /data/app/com.tencent.ig-1 ]; then
+pm disable com.tencent.ig
+fi
+if [ -d /data/app/com.pubg.krmobile-1 ]; then
+pm disable com.pubg.krmobile
+fi
+sleep 3
+echo -e "\e[92;1m[ HeHe Boi ]\e[0m"
+echo -e  " "
+echo -e "\e[98;1m[ Rebooting ]\e[0m"
+sleep 3
+reboot
+else
+echo -e  "\e[98;1m[ SOURCE IS DIFFERENT, MAKE SURE YOU PUT THE GIVEN TRANSALTION ONLY INSIDE DOCUMENTS ]\e[0m"
+rm -rf /data/media/0/Documents/*
+fi
+;;
+esac
+echo -e " ";;
+3)
+cat << "EOF"
+  ____ _                       ____           _
+ / ___| | ___  __ _ _ __      / ___|__ _  ___| |__   ___
+| |   | |/ _ \/ _` | '__|____| |   / _` |/ __| '_ \ / _ \
+| |___| |  __/ (_| | | |_____| |__| (_| | (__| | | |  __/
+ \____|_|\___|\__,_|_|        \____\__,_|\___|_| |_|\___|
+EOF
+echo -e " "
+echo -e "\e[92;1m[ MADE BY SPECTRE ]\e[0m"
+echo -e  " "
+echo -e "\e[93;1m[ THIS SCRIPT IS USED TO CLEAR CACHE  ]\e[0m"
+echo -e " "
+echo -e "\e[92;1m[ CAUTION: DONT USE THIS SCRIPT UNNECESSARILY , USE ONLY WHEN YOUR SYSTEM BECAME EXTREMELY LAGGY ]\e[0m"
+echo -e " "
+echo -e "\e[92;1m[ Select the options below ]\e[0m"
+echo -e  " " 
+echo -e "\e[93;1m [1] CLEAR DALVIK CACHE  \e[0m"
+echo -e " "
+echo -e "\e[94;1m [2] CLEAR APP CACHE \e[0m"
+echo -e " "
+read c
+clear
+case $c in
+1)
+echo -e "\e[96;1m[ CLEARING DALVIK CACHE ]\e[0m"
+echo -e " "
+echo -e "\e[96;1m[ IT NEEDS ABOVE 5 MINUTES FOR NEXT RESTART, PLEASE BE PATIENT ]\e[0m"
+rm -rf /data/dalvik-cache/*
+sleep 3
+echo -e " "
+echo -e "\e[97;1m[ HeHe Boi ]\e[0m"
+echo -e " "
+echo -e "\e[98;1m[ Rebooting ]\e[0m"
+sleep 3
+reboot
+;;
+2)
+echo -e "\e[91;1m[ CLEARING APP CACHE ]\e[0m"
+cd /data/data
+find . -name cache -type d -exec rm -rf {} +
+cd /data/media/0/Android/data
+find . -name cache -type d -exec rm -rf {} +
+sleep 3
+echo -e " "
+echo -e "\e[92;1m[ HeHe Boi ]\e[0m"
+echo -e " "
+echo -e "\e[98;1m[ Press ALT+F7 or ALT+FN+F7 to Exit ]\e[0m"
+sleep 3
+;;
+esac
+echo -e "" ;;
+4)
+echo- e " "
+echo -e "\e[92;1m==================================================================================================================\e[0m"
+echo -e " "
+cat<< "EOF"
+____                 _       _   _
+|  _ \ ___  ___  ___ | |_   _| |_(_) ___  _ __
+| |_) / _ \/ __|/ _ \| | | | | __| |/ _ \| '_ \
+|  _ <  __/\__ \ (_) | | |_| | |_| | (_) | | | |
+|_| \_\___||___/\___/|_|\__,_|\__|_|\___/|_| |_|
+EOF
+echo -e " "
+echo -e " \e[92;1m==================================================================================================================\e[0m"
+echo -e " "
+echo -e "\e[92;1m[ Custom Resolution changer. ]\e[0m"
+echo -e " "
+echo -e "\e[96;1m[ Made By Narendra From Ghost team ]\e[0m"
+echo -e " "
+wm size > /system/etc/display.txt
+wm density > /system/etc/density.txt
+sc=$(cat /system/etc/display.txt)
+dc=$(cat /system/etc/density.txt)
+echo -e "\e[95;1m[ Choose The Action here ]\e[0m"
+echo -e " "
+echo -e "\e[92;1m [1] Set resolution. \e[0m"
+echo -e " "
+echo -e "\e[93;1m [2] Reset resolution. \e[0m"
+echo -e " "
+echo -e "\e[94;1m [3] Set density [dpi]. \e[0m"
+echo -e " "
+echo -e "\e[95;1m [4] Reset density [dpi]. \e[0m"
+echo -e " "
+echo -e "\e[96;1m [5] Return to main menu. \e[0m"
+echo -e " "
+echo -e "\e[91;1m [6] Exit. \e[0m"
+echo -e " "
+echo -e "\e[93;1m choose your option :- \e[0m"
+read c   
+clear 
+case $c in  
+1)
+echo -e "\e[92;1m[ Your choice is Set Resolution. \e[0m"
+echo -e " " 
+echo -e "\e[96;1m[ Current is [ $sc ].\e[0m"
+echo -e " "
+echo -e "\e[92;1m Enter The wight :- ]\e[0m"
+echo -e " "
+read w   
+echo -e "\e[93;1m Enter The hight :- \e[0m"
+echo -e " "
+read h 
+echo -e "\e[93;1m[ resolution is "$w"x"$h" .]e\[0m"  
+wm size "$w"x"$h"
+echo -e " "
+echo -e "\e[92;1m[ Heheboi. ]\e[0m"
+echo -e " "
+echo -e "\e[93;1m[ Press Alt+f7 To close Termianl. ]\e[0m" ;;
+2)
+echo -e "\e[92;1m[ Your choice is rest Resolution .\e[0m"
+echo -e " "
+wm size reset
+echo -e " "
+echo -e "\e[93;1m[ HeHeboi. ]\e[0m"
+echo -e " "
+echo -e "\e[93;1m[ Press Alt+f7 To close Termianl. ]\e[0m" ;;
+3)
+echo -e "\e[92;1m[ Your choice is Set density [dpi]. \e[0m"
+echo -e " " 
+echo -e "\e[96;1m[ Current is [ $dc ].\e[0m"
+echo -e " "
+echo -e "\e[92;1m Enter The dpi :- ]\e[0m"
+echo -e " "
+read dpi   
+echo -e " "
+echo -e "\e[93;1m[ Density [dpi] is "$dpi" .]e\[0m"  
+wm density "$dpi"
+echo -e " " 
+echo -e "\e[92;1m[ Heheboi. ]\e[0m"
+echo -e " "
+echo -e "\e[93;1m[ Press Alt+f7 To close Termianl. ]\e[0m" ;;
+4)
+echo -e "\e[92;1m[ Your choice is rest density .\e[0m"
+echo -e " "
+wm density reset
+echo -e " "
+echo -e "\e[93;1m[ HeHeboi. ]\e[0m"
+echo -e " "
+echo -e "\e[93;1m[ Press Alt+f7 To close Termianl. ]\e[0m" ;;
+5)
+cd /system/bin 
+./sos ;; 
+6)
+exit ;;
+esac 
+echo -e " " ;;
+5)
+cat << "EOF"
+  ____ _____      __ _ _      __  __
+ / ___|__  /     / _(_) | ___|  \/  | __ _ _ __   __ _  __ _  ___ _ __
+| |     / /_____| |_| | |/ _ \ |\/| |/ _` | '_ \ / _` |/ _` |/ _ \ '__|
+| |___ / /|_____|  _| | |  __/ |  | | (_| | | | | (_| | (_| |  __/ |
+ \____/____|    |_| |_|_|\___|_|  |_|\__,_|_| |_|\__,_|\__, |\___|_|
+                                                       |___/
+EOF
+echo -e " "
+echo -e "\e[92;1m[ MADE BY SPECTRE ]\e[0m"
+echo -e  " "
+echo -e "\e[93;2m[ THIS SCRIPT IS USED TO ENABLE/DISABLE CZ FILE MANAGER  ]\e[0m"
+echo -e " "
+echo -e "\e[92;1m[ Select the options below ]\e[0m"
+echo -e  " " 
+echo -e "\e[93;1m [1] DISABLE  \e[0m"
+echo -e " "
+echo -e "\e[94;1m [2] ENABLE \e[0m"
+echo -e " "
+read c
+clear
+case $c in
+1)
+echo -e "\e[96;1m[ DISABLING CZFM ]\e[0m"
+echo -e " "
+if [ -d /system/app/FileManager ]; then
+mkdir /system/.cz
+mv /system/app/FileManager /system/.cz
+echo -e "\e[97;1m[ HeHe Boi ]\e[0m"
+echo -e " "
+echo -e "\e[98;1m[ Rebooting ]\e[0m"
+sleep 3
+reboot
+else
+echo -e "\e[98;1m[ CZFM IS ALREADY DISABLED ]\e[0m"
+fi
+;;
+2)
+echo -e "\e[91;1m[ ENABLING CZFM ]\e[0m"
+echo -e " "
+mv /system/.cz/FileManager /system/app
+rmdir /system/.cz
+sleep 3
+echo -e "\e[92;1m[ HeHe Boi ]\e[0m"
+echo -e " "
+echo -e "\e[98;1m[ Rebooting ]\e[0m"
+sleep 3
+reboot
+;;
+esac
+echo -e "" ;;
+6)
+cat<< "EOF"
+_____ _
+|  ___(_)_ __ _ __ _____      ____ _ _ __ ___
+| |_  | | '__| '_ ` _ \ \ /\ / / _` | '__/ _ \
+|  _| | | |  | | | | | \ V  V / (_| | | |  __/
+|_|   |_|_|  |_| |_| |_|\_/\_/ \__,_|_|  \___|
+EOF
+echo -e " "
+echo -e "\e[92;1m ====================================================================================================================================================================================== \e[0m"
+echo -e " "
+echo -e "\e[92;1m[ SCRIPT MADE BY SPECTRE  ]\e[0m"
+echo -e  " "
+echo -e "\e[93;1m[ THIS SCRIPT IS USED TO UPDATE FIRMWARE ]\e[0m"
+echo -e " "
+echo -e "\e[96;1m[ NOTE: PLEASE MAKE SURE THERE IS ONLY ONE ZIPPED FIRMWARE IN DOCUMENTS FOLDER AND NO OTHER PERSONAL FILES ]\e[0m"
+echo -e " "
+echo -e "\e[92;1m[ THIS SCRIPT WORKS ONLY IN PHOENIX-OS SPECTRE EDITION AND ONLY GIVEN .ZIP EXTENTIONS ARE SUPPORTED ]\e[0m"
+echo -e  " "
+echo -e "\e[92;1m[ TO GET LINKS FOR SUPPORTED FIRMWARES PLEASE CHECK OUR WEBSITE ]\e[0m"
+echo -e  " "
+echo -e "\e[93;1m PRESS ENTER KEY TO CONTINUE ]\e[0m"
+echo -e " "
+read c
+if [ -e /data/media/0/Documents/*.zip ]; then
+echo -e  "\e[92;1m FIRMWARE FOUND.....! \e[0m"
+echo -e  " "
+echo -e  "\e[93;1m INSTALLATION STARTED...! \e[0m"
+echo -e  " "
+echo -e  "\e[93;1m DECOMPRESSING...! \e[0m"
+echo -e " "
+cd /data/media/0/Documents/
+mv *.zip Firmware.zip
+unzip -o Firmware
+echo -e "\e[93;1m[ DECOMPRESSION PROCESS COMPLETED SUCCESSFULLY  ]  \e[0m"
+echo -e " "
+cd /data/media/0/Documents
+B=/data/media/0/Documents/firmware
+if [ -d "$B" ]; then
+echo -e  "\e[92;1m[ DOWNLOAD SOURCE IS CORRECT! ] \e[0m"
+echo -e  " "
+echo -e  "\e[93;1m REMOVING OLD DIRECTORIES...! \e[0m"
+echo -e " "
+cd /system/lib
+rm -rf firmware
+echo -e "\e[96;1m[ UPDATING FIRMWARE...PLEASE WAIT ]\e[0m"
+echo -e " "
+mv -f /data/media/0/Documents/firmware /system/lib/
+find /system -type d -exec chmod 755 {} \;
+find /system/lib -type f -exec chmod 644 {} \;
+cd /storage/emulated/0/Documents
+rm -f *.zip
+cd /storage/emulated/0/Documents
+rm -f fw.txt
+sleep 3
+echo -e "\e[92;1m[ HeHe Boi ]\e[0m"
+echo -e " "
+echo -e "\e[98;1m[ Rebooting ]\e[0m"
+sleep 3
+reboot
+else
+echo -e  "\e[98;1m[ FIRMWARE SOURCE IS DIFFERENT, CAN'T UPDATE, PLEASE DOWNLOAD FROM LINKS PROVIDED IN WEBSITE ONLY ; Error 69 ]\e[0m"
+echo -e " "
+cd /storage/emulated/0/Documents
+rm -f *.zip
+cd /storage/emulated/0/Documents
+rm -f fw.txt
+fi
+else
+echo -e  "\e[94;1m[ FIRMWARE NOT FOUND, PUT FIRMWARE.zip INSIDE DOCUMENTS ; Error 69 ]\e[0m"
+fi
+echo -e " ";;
+7)
+cat << "EOF"
+___       _ _         __ _
+|_ _|_ __ (_) |_      / _(_)_  _____ _ __
+ | || '_ \| | __|____| |_| \ \/ / _ \ '__|
+ | || | | | | ||_____|  _| |>  <  __/ |
+|___|_| |_|_|\__|    |_| |_/_/\_\___|_|
+EOF
+echo -e " "
+echo -e "\e[92;1m =============================================================================================================================================================================== \e[0m"
+echo -e " "
+echo -e "\e[93;1m[ SCRIPT MADE BY SPECTRE ]\e[0m"
+echo -e  " "
+echo -e "\e[93;2m[ THIS SCRIPT IS USED TO LOAD ALSA PROFILE, LOAD WIFI MODULE (IF EXIST IN KERNEL) ETC. ]\e[0m"
+echo -e " "
+echo -e "\e[93;1m[ CAUTION: DON'T USE init.sh FILE FROM OTHER SOURCE, ASK GHOST TEAM ]\e[0m"
+echo -e " "
+echo -e "\e[93;1m[ COPY init.sh FILE TO DOCUMENTS FOLDER ]\e[0m"
+echo -e  " "
+sleep 3
+mv -f /data/media/0/Documents/init.sh /system/etc/
+cd /system/etc
+chmod 755 init.sh
+echo -e  "\e[93;1m[ HeHe Boi ]\e[0m"
+echo -e  " "
+echo -e  "\e[93;1m[ REBOOTING ]\e[0m"
+reboot
+echo -e " ";;
+8)
+cat<< "EOF"
+  ____         _
+ / ___|       / \   _ __  _ __  ___
+| |  _ _____ / _ \ | '_ \| '_ \/ __|
+| |_| |_____/ ___ \| |_) | |_) \__ \
+ \____|    /_/   \_\ .__/| .__/|___/
+                   |_|   |_|
+EOF
+echo -e  " "
+echo -e "\e[93;1m[ Made by DAKSH ]\e[0m"
+echo -e  " "
+echo -e  "\e[93;2m[ This script is used to remove and restore GAPPS ]\e[0m"
+echo -e " "
+echo -e "\e[92;1m[ Select the options below ]\e[0m"
+echo -e  " " 
+echo -e "\e[93;1m [1] Remove  \e[0m"
+echo -e " "
+echo -e "\e[94;1m [2] Restore \e[0m"
+echo -e " "
+read c
+clear
+case $c in
+1)
+echo -e "\e[96;1m[ Removing GAPPS ]\e[0m"
+echo -e " "
+mkdir /system/.gapps
+mv /data/app/com.android.vending-1 /system/.gapps
+mv /system/priv-app/GmsCore /system/.gapps
+mv /system/priv-app/Phonesky /system/.gapps
+sleep 3
+echo -e "\e[92;1m[ HeHe Boi ]\e[0m"
+echo -e " "
+echo -e "\e[93;1m[ Rebooting ]\e[0m"
+sleep 3
+reboot
+;;
+2)
+echo -e "\e[91;1m[ Restoring GAPPS ]\e[0m"
+echo -e " "
+mv /system/.gapps/GmsCore /system/priv-app
+mv /system/.gapps/Phonesky /system/priv-app
+mv /system/.gapps/com.android.vending-1/base.apk /system/priv-app/Phonesky/Phonesky.apk
+rm -r /system/.gapps
+sleep 3
+echo -e "\e[92;1m[ HeHe Boi ]\e[0m"
+echo -e " "
+echo -e "\e[93;1m[ Rebooting ]\e[0m"
+sleep 3
+reboot
+;;
+esac
+echo -e " ";;
+9)
+cat<< "EOF"
+ ____            _                       _   _           _       _
+/ ___| _   _ ___| |_ ___ _ __ ___       | | | |_ __   __| | __ _| |_ ___
+\___ \| | | / __| __/ _ \ '_ ` _ \ _____| | | | '_ \ / _` |/ _` | __/ _ \
+ ___) | |_| \__ \ ||  __/ | | | | |_____| |_| | |_) | (_| | (_| | ||  __/
+|____/ \__, |___/\__\___|_| |_| |_|      \___/| .__/ \__,_|\__,_|\__\___|
+       |___/                                  |_|
+EOF
+echo -e " "
+echo -e "\e[92;1m[ This Script made by Narendra From Ghost Team ]\e[0m"
+echo -e " "
+echo -e "\e[93;1m[ This system-updater Works only sys.zip files only By Ghost team devs ]\e[0m"
+echo -e " "
+echo -e "\e[91;1m[ The System_update is for Future update . ]\e[0m"
+echo -e " "
+echo -e "\e[93;1m[ Press Enter Key TO Contiune.......... ]\e[0m"
+echo -e " "
+read
+clear
+echo -e "\e[96;1m[ Select Your Option To Start sys_update ]\e[0m"
+echo -e " "
+sleep 0.3
+echo -e "\e[93;1m [1] System_update. \e[0m"
+echo -e " "
+sleep 0.4
+echo -e "\e[93;1m [2] Return To Main Menu \e[0m"
+echo -e " "
+sleep 0.4
+echo -e "\e[91;1m [3] Exit. \e[0m"
+echo -e " "
+sleep 0.4
+echo "\e[96;1m Select Your Option To start sys_process..... > \e[0m"
+read n
+clear
+case $n in
+1)
+echo -e  " "
+echo -e "\e[93;1m[ Your Choice is [ $n ] Sys_update.] \e[0m"
+echo -e  " "
+sleep 1
+echo -e "\e[92;1m[ Checking Presence of System_update files ........ ]\e[0m"
+sleep 0.5
+echo -e " "
+F=/storage/emulated/0/Documents/sys.zip
+if [ -f "$F" ]; then
+echo -e "\e[92;1m[ Found sys.zip..... ]\e[0m"
+echo -e " "
+sleep 1
+echo -e "\e[93;1m[ Unziping Source..... ]\e[0m"
+echo -e " "
+cd /sdcard/Documents
+unzip -oq sys.zip
+echo -e "\e[96;1m[ System Started Updating........ ]\e[0m"
+echo -e " "
+sleep 0.5
+cd /sdcard/Documents/sysup
+sh installer.sh
+else
+echo -e "\e[91;1m[ sys.zip is Not Found Or Unknow Format file ...... ]\e[0m"
+echo -e " "
+echo -e "\e[92;1m[ Rebooting.............. ]\e[0m"
+reboot
+fi
+echo -e " ";;
+2)
+cd /system/bin
+./sos
+echo -e " ";;
+3)
+exit
+echo -e " ";;
+esac
+echo -e " ";;
+10)
+cd /system/bin
+./sos
+echo -e " ";;
+esac
+echo -e " ";;
+7)
+cat << "EOF"
+_  __                    _
+| |/ /___ _ __ _ __   ___| |
+| ' // _ \ '__| '_ \ / _ \ |
+| . \  __/ |  | | | |  __/ |
+|_|\_\___|_|  |_| |_|\___|_|
+
+EOF
+sleep 1
+echo -e "\e[92;1m[ SCRIPT MADE BY SPECTRE  ]\e[0m"
+echo -e  " "
+echo -e "\e[93;1m[ THIS SCRIPT IS USED TO CHANGE KERNEL ]\e[0m"
+echo -e " "
+echo -e "\e[94;1m[ NOTE: PLEASE MAKE SURE THERE IS ONLY ONE ZIPPED KERNEL IN DOCUMENTS FOLDER AND NO OTHER PERSONAL FILES ]\e[0m"
+echo -e " "
+echo -e "\e[92;1m[ THIS SCRIPT WORKS ONLY IN PHOENIX-OS SPECTRE EDITION AND ONLY GIVEN .ZIP EXTENTIONS ARE SUPPORTED ]\e[0m"
+echo -e  " " 
+echo -e "\e[95;1m[ TO GET LINKS FOR SUPPORTED KERNELS PLEASE CHECK OUR WEBSITE ]\e[0m"
+echo -e  " " 
+echo -e "\e[93;1m PRESS ENTER TO CONTINUE ]\e[0m"
+echo -e " "
+read c
+if [ -e /data/media/0/Documents/*.zip ]; then
+echo -e  "\e[92;1m KERNEL FOUND.....! \e[0m"
+echo -e  " "
+echo -e  "\e[93;1m INSTALLATION STARTED...! \e[0m"
+echo -e  " "
+echo -e  "\e[93;1m DECOMPRESSING...! \e[0m"
+echo -e  " "
+cd /data/media/0/Documents/
+mv *.zip Kernel.zip
+unzip -oq Kernel
+echo -e "\e[93;1m[ DECOMPRESSION PROCESS COMPLETED SUCCESSFULLY  ]  \e[0m"
+echo -e  " "
+else
+echo -e  "\e[98;1m[ KERNEL NOT FOUND, PUT KERNEL<versioncode>.zip INSIDE DOCUMENTS ; Error 69 ]\e[0m"
+echo -e  " "
+fi
+echo -e "\e[96;1m[ CHOOSE YOUR PARTITION STYLE ]\e[0m"
+echo -e " "
+echo -e "\e[93;1m [1] EXT4  \e[0m"
+echo -e " "
+echo -e "\e[94;1m [2] NTFS \e[0m"
+echo -e " "
+read c
+clear
+case $c in
+1)
+cd /data/media/0/Documents
+A=/data/media/0/Documents/firmware
+if [ -d "$A" ]; then
+echo -e  "\e[92;1m[ FIRMWARE DIRECTORY FOUND...! ] \e[0m"
+echo -e  " "
+echo -e  "\e[93;1m REMOVING OLD DIRECTORIES...! \e[0m"
+echo -e  " "
+cd /system/lib
+rm -rf firmware
+echo -e "\e[96;1m[ UPDATING FIRMWARE...PLEASE WAIT ]\e[0m"
+echo -e  " "
+mv -f /data/media/0/Documents/firmware /system/lib/
+find /system -type d -exec chmod 755 {} \;
+find /system/lib -type f -exec chmod 644 {} \;
+else
+echo -e  "\e[92;1m[ FIRMWARE DIRECTORY NOT FOUND, UPDATING MODULES ONLY! ] \e[0m"
+echo -e  " "
+fi
+cd /data/media/0/Documents
+B=/data/media/0/Documents/modules
+if [ -d "$B" ]; then
+echo -e  "\e[92;1m[ DOWNLOAD SOURCE IS CORRECT! ] \e[0m"
+echo -e  " "
+echo -e  "\e[93;1m[ BACKING UP STOCK KERNEL...! ] \e[0m"
+echo -e  " "
+mkdir -m 755 /data/media/0/.Kernel
+cd /system/lib/modules
+cp -rp 4.14.15-PhoenixOS-x86_64 /data/media/0/.Kernel
+echo -e  "\e[93;1m REMOVING OLD DIRECTORIES...! \e[0m"
+echo -e  " "
+cd /system/lib
+rm -rf modules
+echo -e "\e[96;1m[ Changing KERNEL...PLEASE WAIT ]\e[0m"
+echo -e  " "
+mv -f /data/media/0/Documents/modules /system/lib/
+mv -f /data/media/0/.Kernel/4.14.15-PhoenixOS-x86_64 /system/lib/modules/
+find /system -type d -exec chmod 755 {} \;
+find /system/lib -type f -exec chmod 644 {} \;
+echo -e "\e[96;1m[ Placing Kernel file ]\e[0m"
+echo -e  " "
+x=$(df /data/ | awk '/^\/dev/ {print $1}')
+mkdir -m 755 /data/media/0/ext4
+mount -t ext4 -rw $x /data/media/0/ext4
+y=$(find /data/media/0/ext4 -maxdepth 4 -type f -name heheboi.txt)
+z=${y%/*}
+cd /data/media/0/Documents
+mv -f kernel $z
+cd /storage/emulated/0/Documents
+rm -f *.zip
+cd /storage/emulated/0/Documents
+rm -f kernel
+cd /storage/emulated/0
+rmdir .Kernel
+umount -t ext4 $x
+cd /data/media/0
+rmdir ext4
+sleep 3
+echo -e "\e[92;1m[ HeHe Boi ]\e[0m"
+echo -e " "
+echo -e "\e[98;1m[ Rebooting ]\e[0m"
+sleep 2
+reboot
+else
+echo -e  "\e[98;1m[ KERNEL SOURCE IS DIFFERENT, CAN'T UPDATE, PLEASE DOWNLOAD FROM LINKS PROVIDED IN WEBSITE ONLY ; Error 69 ]\e[0m"
+cd /storage/emulated/0/Documents
+rm -f *.zip
+cd /storage/emulated/0/Documents
+rm -f kernel
+fi
+;;
+2)
+cd /data/media/0/Documents
+A=/data/media/0/Documents/firmware
+if [ -d "$A" ]; then
+echo -e  "\e[92;1m[ FIRMWARE DIRECTORY FOUND...! ] \e[0m"
+echo -e  " "
+echo -e  "\e[93;1m REMOVING OLD DIRECTORIES...! \e[0m"
+echo -e  " "
+cd /system/lib
+rm -rf firmware
+echo -e "\e[96;1m[ UPDATING FIRMWARE...PLEASE WAIT ]\e[0m"
+echo -e  " "
+mv -f /data/media/0/Documents/firmware /system/lib/
+find /system -type d -exec chmod 755 {} \;
+find /system/lib -type f -exec chmod 644 {} \;
+else
+echo -e  "\e[92;1m[ FIRMWARE DIRECTORY NOT FOUND, UPDATING MODULES ONLY! ] \e[0m"
+echo -e  " "
+fi
+cd /data/media/0/Documents
+B=/data/media/0/Documents/modules
+if [ -d "$B" ]; then
+echo -e  "\e[92;1m[ DOWNLOAD SOURCE IS CORRECT! ] \e[0m"
+echo -e  " "
+echo -e  "\e[93;1m[ BACKING UP STOCK KERNEL...! ] \e[0m"
+echo -e  " "
+rm -rf /data/media/0/.Kernel
+mkdir -m 755 /data/media/0/.Kernel
+cd /system/lib/modules
+cp -r 4.14.15-PhoenixOS-x86_64 /data/media/0/.Kernel
+echo -e  "\e[93;1m REMOVING OLD DIRECTORIES...! \e[0m"
+echo -e  " "
+cd /system/lib
+rm -rf modules
+echo -e "\e[96;1m[ Changing KERNEL...PLEASE WAIT ]\e[0m"
+echo -e  " "
+mv -f /data/media/0/Documents/modules /system/lib/
+mv -f /data/media/0/.Kernel/4.14.15-PhoenixOS-x86_64 /system/lib/modules/
+find /system -type d -exec chmod 755 {} \;
+find /system/lib -type f -exec chmod 644 {} \;
+echo -e "\e[96;1m[ Placing Kernel file ]\e[0m"
+echo -e  " "
+y=$(find /mnt/runtime/default -maxdepth 3 -type f -name heheboi.txt)
+z=${y%/*}
+cd /data/media/0/Documents
+mv -f kernel $z
+cd /storage/emulated/0/Documents
+rm -f *.zip
+cd /storage/emulated/0/Documents
+rm -f kernel
+cd /storage/emulated/0
+rmdir .Kernel
+sleep 3
+echo -e "\e[92;1m[ Hehe Boi ]\e[0m"
+echo -e " "
+echo -e "\e[98;1m[ Rebooting ]\e[0m"
+sleep 3
+reboot
+else
+echo -e  "\e[98;1m[ KERNEL SOURCE IS DIFFERENT, CAN'T UPDATE, PLEASE DOWNLOAD FROM LINKS PROVIDED IN WEBSITE ONLY ; Error 69 ]\e[0m"
+cd /storage/emulated/0/Documents
+rm -f *.zip
+cd /storage/emulated/0/Documents
+rm -f kernel
+fi
+;;
+esac
+echo -e " ";;
+8)
+cat << "EOF"
+__  __
+|  \/  | ___  ___  __ _
+| |\/| |/ _ \/ __|/ _` |
+| |  | |  __/\__ \ (_| |
+|_|  |_|\___||___/\__,_|
+EOF
+sleep 1
+echo -e "\e[92;1m[ SCRIPT MADE BY SPECTRE  ]\e[0m"
+echo -e  " "
+echo -e "\e[93;1m[ THIS SCRIPT IS USED TO CHANGE MESA DRIVERS ]\e[0m"
+echo -e " "
+echo -e "\e[94;1m[ NOTE: PLEASE MAKE SURE THERE IS ONLY ONE ZIPPED MESA IN DOCUMENTS FOLDER AND NO OTHER PERSONAL FILES ]\e[0m"
+echo -e " "
+echo -e "\e[92;1m[  THIS SCRIPT WORKS ONLY IN PHOENIX-OS SPECTRE EDITION AND ONLY GIVEN .ZIP EXTENTIONS ARE SUPPORTED ]\e[0m"
+echo -e  " " 
+echo -e "\e[94;1m[  TO GET LINKS FOR SUPPORTED MESA DRIVERS PLEASE CHECK OUR WEBSITE ]\e[0m"
+echo -e  " " 
+echo -e "\e[93;1m PRESS ANY KEY TO CONTINUE ]  \e[0m"
+echo -e " "
+read c
+if [ -e /data/media/0/Documents/*.zip ]; then
+echo -e  "\e[92;1m[ MESA DRIVER FOUND.....! ] \e[0m"
+echo -e  " "
+echo -e  "\e[93;1m[ INSTALLATION STARTED...! ] \e[0m"
+echo -e  " "
+echo -e  "\e[93;1m[ DECOMPRESSING...! ] \e[0m"
+echo -e  " "
+cd /data/media/0/Documents/
+mv *.zip Mesa.zip
+cd /data/media/0/Documents/
+unzip -oq Mesa
+find /data/media/0/Documents -type d -exec chmod 755 {} \;
+find /data/media/0/Documents/lib -type f -exec chmod 644 {} \;
+find /data/media/0/Documents/lib64 -type f -exec chmod 644 {} \;
+find /data/media/0/Documents/vendor -type f -exec chmod 644 {} \;
+if [ -d /data/media/0/Documents/usr ]; then
+find /data/media/0/Documents/usr -type f -exec chmod 644 {} \;
+fi
+echo -e "\e[93;1m[ DECOMPRESSION PROCESS COMPLETED SUCCESSFULLY ]  \e[0m"
+echo -e  " "
+else
+echo -e  "\e[98;1m[ MESA DRIVER NOT FOUND, PUT Mesa<versioncode>.zip INSIDE DOCUMENTS ; Error 69 ]\e[0m"
+echo -e  " "
+fi
+cd /data/media/0/Documents
+B=/data/media/0/Documents/lib64
+if [ -d "$B" ]; then
+echo -e  "\e[92;1m DOWNLOAD SOURCE IS CORRECT! \e[0m"
+echo -e  " "
+echo -e  "\e[93;1m REMOVING OLD DIRECTORIES...! \e[0m"
+echo -e  " "
+cd /system/lib
+rm -rf dri egl hw libglapi.so
+cd /system/vendor
+rm -rf lib lib64
+cd /system/lib64
+rm -rf dri egl hw libglapi.so
+echo -e "\e[96;1m[ Changing MESA...PLEASE WAIT ]\e[0m"
+echo -e  " "
+cp -rpf /data/media/0/Documents/lib /system/
+cp -rpf /data/media/0/Documents/vendor /system/
+cp -rpf /data/media/0/Documents/lib64 /system/
+if [ -d /data/media/0/Documents/usr ]; then
+cp -rpf /data/media/0/Documents/usr /system/
+fi
+cd /storage/emulated/0/Documents
+rm -f *.zip
+find /data/media/0/Documents -type d -exec chmod 777 {} \;
+find /data/media/0/Documents/lib -type f -exec chmod 777 {} \;
+find /data/media/0/Documents/lib64 -type f -exec chmod 777 {} \;
+find /data/media/0/Documents/vendor -type f -exec chmod 777 {} \;
+cd /storage/emulated/0/Documents
+rm -rf lib lib64 vendor usr
+echo -e "\e[92;1m[ HeHe Boi ]\e[0m"
+echo -e  " "
+echo -e "\e[98;1m[ Rebooting ]\e[0m"
+reboot
+else
+echo -e  "\e[98;1m[ MESA DRIVER SOURCE IS DIFFERENT, CAN'T UPDATE, PLEASE DOWNLOAD FROM LINKS PROVIDED IN PFX-SE ; Error 69 ]\e[0m"
+cd /storage/emulated/0/Documents
+rm -f *.zip
+cd /storage/emulated/0/Documents
+rm -rf lib lib64 vendor
+fi
+echo -e " ";;
+9)
+cat << "EOF"
+____
+|  _ \ ___  ___  ___ _   _  ___
+| |_) / _ \/ __|/ __| | | |/ _ \
+|  _ <  __/\__ \ (__| |_| |  __/
+|_| \_\___||___/\___|\__,_|\___|
+EOF
+echo -e " "
+echo -e "\e[96;1m[ MADE BY SPECTRE ]\e[0m"
+echo -e  " "
+echo -e "\e[93;2m[ THIS SCRIPT IS ONLY USED TO RESCUE FROM BOOT ERROR ]\e[0m"
+echo -e  " "
+echo -e "\e[94;1m[ IF YOURE STUCK AT BOOT-ANIMATION, USE PARAGON EXTFS, UNMOUNT YOUR EXT4 PARTITION AND VERIFY TWICE, BOOT AGAIN ] \e[0m"
+echo -e " "
+echo -e "\e[96;1m[ CHOOSE YOUR OPERATION ]\e[0m"
+echo -e " "
+echo -e "\e[93;1m [1] MESA RESCUE ]  \e[0m"
+echo -e " "
+echo -e "\e[94;1m [2] KERNEL RESCUE ] \e[0m"
+echo -e " "
+read c
+clear
+case $c in
+1)
+echo -e  "\e[93;1m[ RESCUE STARTED...! ] \e[0m"
+echo -e  " "
+echo -e  "\e[93;1m[ PULLING STOCK MESA...! ] \e[0m"
+echo -e  " "
+cd /system/etc/security/cacerts/.intel
+unzip -oq stockmesa
+find /system/etc/security/cacerts/.intel -type d -exec chmod 755 {} \;
+find /system/etc/security/cacerts/.intel/lib -type f -exec chmod 644 {} \;
+find /system/etc/security/cacerts/.intel/lib64 -type f -exec chmod 644 {} \;
+find /system/etc/security/cacerts/.intel/vendor -type f -exec chmod 644 {} \;
+echo -e "\e[93;1m[ PULLED OUT SUCCESSFULLY ]  \e[0m"
+echo -e  " "
+echo -e  "\e[93;1m REMOVING OLD DIRECTORIES...! \e[0m"
+echo -e  " "
+cd /system/lib
+rm -rf dri egl hw libglapi.so
+cd /system/vendor
+rm -rf lib lib64
+cd /system/lib64
+rm -rf dri egl hw libglapi.so
+echo -e "\e[96;1m[ RESCUE ON PROGRESS...PLEASE WAIT ]\e[0m"
+echo -e  " "
+cp -rpf /system/etc/security/cacerts/.intel/lib /system/
+cp -rpf /system/etc/security/cacerts/.intel/vendor /system/
+cp -rpf /system/etc/security/cacerts/.intel/lib64 /system/
+find /system/etc/security/cacerts/.intel -type d -exec chmod 777 {} \;
+find /system/etc/security/cacerts/.intel/lib -type f -exec chmod 777 {} \;
+find /system/etc/security/cacerts/.intel/lib64 -type f -exec chmod 777 {} \;
+find /system/etc/security/cacerts/.intel/vendor -type f -exec chmod 777 {} \;
+cd /system/etc/security/cacerts/.intel
+rm -rf lib lib64 vendor
+echo -e "\e[92;1m[ HeHe Boi ]\e[0m"
+echo -e  " "
+echo -e "\e[98;1m[ Rebooting ]\e[0m"
+reboot
+;;
+2)
+echo -e "\e[96;1m[ CHOOSE YOUR PARTITION STYLE ]\e[0m"
+echo -e " "
+echo -e "\e[93;1m [1] EXT4  \e[0m"
+echo -e " "
+echo -e "\e[94;1m [2] NTFS \e[0m"
+echo -e " "
+read b
+clear
+case $b in
+1)
+echo -e "\e[96;1m[ Placing stock Kernel ]\e[0m"
+echo -e  " "
+x=$(df /data/ | awk '/^\/dev/ {print $1}')
+mkdir -m 755 /data/media/0/ext4
+mount -t ext4 -rw $x /data/media/0/ext4
+y=$(find /data/media/0/ext4 -maxdepth 4 -type f -name heheboi.txt)
+z=${y%/*}
+cd /system/etc/security/cacerts/.intel
+cp -pf kernel $z
+umount -t ext4 $x
+cd /data/media/0
+rmdir ext4
+sleep 3
+echo -e "\e[92;1m[ HeHe Boi ]\e[0m"
+echo -e " "
+echo -e "\e[98;1m[ Rebooting ]\e[0m"
+sleep 2
+reboot
+;;
+2)
+echo -e "\e[96;1m[ Placing Stock Kernel ]\e[0m"
+echo -e  " "
+y=$(find /mnt/runtime/default -maxdepth 4 -type f -name heheboi.txt)
+z=${y%/*}
+cd /system/etc/security/cacerts/.intel
+cp -pf kernel $z
+sleep 3
+echo -e "\e[92;1m[ HeHe Boi ]\e[0m"
+echo -e " "
+echo -e "\e[98;1m[ Rebooting ]\e[0m"
+sleep 3
+reboot
+;;
+esac
+esac
+echo -e " ";;
+10)
+echo -e "\e[92;1m==============================================================================================================================\e[0m"
+echo -e " "
+cat<< "EOF"
+_____      _                 _          _ ____  _
+| ____|_  _| |_ ___ _ __   __| | ___  __| | __ )(_)_ __   __ _ _ __ _   _
+|  _| \ \/ / __/ _ \ '_ \ / _` |/ _ \/ _` |  _ \| | '_ \ / _` | '__| | | |
+| |___ >  <| ||  __/ | | | (_| |  __/ (_| | |_) | | | | | (_| | |  | |_| |
+|_____/_/\_\\__\___|_| |_|\__,_|\___|\__,_|____/|_|_| |_|\__,_|_|   \__, |
+                                                                    |___/
+ 
+EOF
+echo -e " "
+echo -e "\e[92;1m==============================================================================================================================\e[0m"
+echo -e " "
+echo -e "\e[93;1m[ Add Linux Support In Spos. ]\e[0m"
+echo -e " "
+echo -e "\e[94;1m[ Made by Narendra ]\e[0m"
+echo -e " "
+echo -e "\e[96;1m[ The Script is to add some necessary binaries to feel more like a Linux System .]\e[0m"
+echo -e " "
+echo -e "\e[95;1m[ Choose Here Option ]\e[0m"
+echo -e " "
+echo -e "\e[92;1m [1] Install tools.\e[0m"
+echo -e " "
+echo -e "\e[93;1m [2] Return to Main Menu. \e[0m"
+echo -e " "
+echo -e "\e[91;1m [3] Exit. \e[0m"
+echo -e " "
+echo -e "\e[93;1m Choose Option Here. \e[0m"
+echo -e " "
+read c
+clear
+case $c in
+1) 
+echo -e "\e[93;1m[ Your choice Is Install tools $c .]\e[0m"
+echo -e " "
+#echo -e "\e[91;1m[ Before Doing This Please Coonect To internet. ]\e[0m"
+#cd /system/etc/.linux
+#pm disable com.android.vending
+echo -e " "
+#svc wifi enable
+#echo -e " "
+#pm install termux.apk
+#sleep 0.2
+#pm enable com.android.vending
+#echo -e " "
+#echo -e "\e[93;1m[ Installed Termux Sucessfully.]e[0m"
+#echo -e " "
+#echo -e "\e[92;1m[ Starting Termux App to Install Binaries. ]\e[0m"
+#sleep 0.3
+#am start com.termux.app.TermuxActivity 
+#echo -e " "
+#echo -e "\e[92;1m[ Please Wait 10 Sec For Setup. ]\e[0m" 
+#sleep 10
+#am force-stop com.termux.app.TermuxActivity
+#sleep 0.5
+cd /system/etc/.linux
+cp kali /system/bin
+cp setup.sh /data/data/com.termux/files/home/
+cp kali.sh /data/data/com.termux/files/home/
+echo -e "\e[92;1m[ Setting permission To Termux. ]e\[0m"
+echo -e " "
+cd /system/bin 
+chmod 777 kali
+cd /data/data/com.termux/files/home
+chmod 777 setup.sh 
+chmod 777 kali.sh 
+echo -e "\e[93;1m[ HeHeboi.]\e[0m"
+echo -e " "
+echo -e "\e[91;1m[ Note :- After Reboot Open Termux Then Type bash setup.sh After Setup Close Termux Open Alt + f1 type kali.\e[0m"
+echo -e " "
+echo -e "\e[92;1m[ Rebooting.....]\e[0m"
+reboot 
+echo -e " " ;;
+2)
+cd /system/bin
+./sos
+echo -e " ";;
+3)
+exit ;;
+esac
+echo -e " " ;;
+e)
+echo -e " "
+cat<< "EOF"
+_____      _ _
+| ____|_  _(_) |_
+|  _| \ \/ / | __|
+| |___ >  <| | |_
+|_____/_/\_\_|\__|
+EOF
+echo -e " "
+echo -e "\e[92;1m Press ALT + F7 To Close Terminal. ]\e[0m"
+echo -e " "
+echo -e " ";;
+esac
+
