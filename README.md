@@ -18,7 +18,7 @@ sos is made of bash scripts with special Feature for system configuration.
 1) Special Thanks To PhoenixOS & PrimeOS Team and Android X86.
 2) SOS Coded By Narendra,Spectre & Daksh.
 3) Kernel,Mesa,Extreme Mode Etc...  Done By Spectre. 
-4) Thanks To ICY Where TO Contribute with his compiled Mesa and Kernel.
+
 
 Thanks to all GhostXofficial Members for the Support.! 
  
