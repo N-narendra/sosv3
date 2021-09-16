@@ -1,7 +1,8 @@
 # sosv3
 **Save Our Soul (sos)**
 
-sos is a part of PhoenixOS Spectre Edition.
+sos is a part of PrimeOS Ghost and PhoenixOS Spectre Edition
+(Unofficial versions of pos maintained by GhostXOfficial)
 
 sos is made of bash scripts with special Feature for system configuration.
 
